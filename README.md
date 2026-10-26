@@ -1,8 +1,8 @@
 # Awesome World Models 🌍
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-170-blue" alt="Papers">
-  <img src="https://img.shields.io/badge/last%20updated-2026--10--21-brightgreen" alt="Last Updated">
+  <img src="https://img.shields.io/badge/papers-171-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/last%20updated-2026--10--26-brightgreen" alt="Last Updated">
   <img src="https://img.shields.io/badge/PRs-welcome-orange" alt="PRs Welcome">
 </p>
 
@@ -55,6 +55,7 @@ Cross-domain world-model reviews.
 
 | Work | Paper | Focus | Venue | Resources |
 | --- | --- | --- | --- | --- |
+| **World Model Interpretability** | [World Model Interpretability: From Decoding Representations to Understanding Latent Worlds](https://arxiv.org/abs/2610.25296) | Perspective research agenda for JEPA latent worlds: Ground–Structure–Verify–Act covers factor grounding, relations and dynamics, causal verification, and targeted intervention; no new empirically validated architecture | arXiv 2026 | [Paper List](https://github.com/Jize-W/Awesome-World-Model-Interpretability) |
 | **Embodied WM Survey** | [World Models for Embodied Intelligence: From Plausible to Controllable to Actionable](https://arxiv.org/abs/2609.16697) | Capability hierarchy from plausible prediction to controllable and actionable embodied models | arXiv 2026 | — |
 | **Latent WM Survey** | [Latent World Models for Automated Driving: A Unified Taxonomy, Evaluation Framework, and Open Challenges](https://arxiv.org/abs/2603.09086) | Latent-state taxonomy, evaluation, and deployment challenges | arXiv 2026 | — |
 | **DWM Survey** | [The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey](https://arxiv.org/abs/2502.10498) | Driving world models by predicted scene modality | [Frontiers of Computer Science 2026 (accepted)](https://journal.hep.com.cn/fcs/EN/10.1007/s11704-026-60102-1) | [Paper List](https://github.com/LMD0311/Awesome-World-Model) |
@@ -398,6 +399,7 @@ Official project/industry releases here are not counted as scholarly publication
 
 # Recent Updates
 
+- **2026-10-26:** Added World Model Interpretability (arXiv 2026) to Surveys & Perspectives, identifying Ground–Structure–Verify–Act as a JEPA interpretability research agenda and the author repository as a paper list.
 - **2026-10-21:** Expanded interactive world models from Junchao Huang and the CUHK-Shenzhen Li Jiang research group (WorldCast, LIVE, Memory Forcing, SolarWM, Spatial Memory Intelligence), plus video, evaluation, and embodied work.
 - **2026-10-21:** Reorganized the collection around all-scenario world models and expanded it to medicine, robotics, interactive games, social simulation, science and general model evaluation.
 - **2026-10-21:** Updated the metadata and README generator together, preserving the original driving literature within one application.

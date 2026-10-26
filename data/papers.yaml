@@ -1,6 +1,29 @@
 schema_version: 2
-updated_date: '2026-10-21'
+updated_date: '2026-10-26'
 papers:
+- model: World Model Interpretability
+  title: 'World Model Interpretability: From Decoding Representations to Understanding Latent Worlds'
+  paper_url: https://arxiv.org/abs/2610.25296
+  year: 2026
+  venue: arXiv
+  category: survey
+  focus: 'Perspective research agenda for JEPA latent worlds: Ground–Structure–Verify–Act covers factor grounding, relations and dynamics, causal verification, and targeted intervention; no new empirically validated architecture'
+  code_url: ''
+  project_url: ''
+  resources:
+  - label: Paper List
+    url: https://github.com/Jize-W/Awesome-World-Model-Interpretability
+  arxiv_id: '2610.25296'
+  published_date: '2026-10-18'
+  verified_date: '2026-10-26'
+  publication_status: preprint
+  added_date: '2026-10-26'
+  scope: BACKGROUND
+  summary: 'A Perspective distinguishing recoverable latent information from understanding how latent factors interact, evolve, and causally support prediction. It proposes a research agenda rather than a new empirically validated model. The author-maintained resource is a related-work bibliography, not model training code.'
+  sources:
+  - https://arxiv.org/abs/2610.25296
+  - https://arxiv.org/html/2610.25296v1
+  - https://github.com/Jize-W/Awesome-World-Model-Interpretability
 - model: Latent WM Survey
   title: 'Latent World Models for Automated Driving: A Unified Taxonomy, Evaluation Framework, and Open Challenges'
   paper_url: https://arxiv.org/abs/2603.09086
