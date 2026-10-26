@@ -3258,3 +3258,121 @@ papers:
   - https://arxiv.org/abs/2609.38057
   - https://github.com/Clausy9/EVO-WAM
   - https://evo-wam.github.io/
+- model: MDGen
+  title: Generative Modeling of Molecular Dynamics Trajectories
+  paper_url: https://arxiv.org/abs/2409.17808
+  arxiv_id: '2409.17808'
+  year: 2024
+  venue: NeurIPS
+  category: medical
+  focus: 'Molecular trajectory generation supports forward simulation, transition-path sampling, temporal upsampling and dynamics-conditioned design'
+  code_url: https://github.com/bjing2016/mdgen
+  project_url: ''
+  code_status: released
+  publication_status: published
+  publication_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/478b06f60662d3cdc1d4f15d4587173a-Abstract-Conference.html
+  published_date: '2024-09-26'
+  added_date: '2026-10-26'
+  verified_date: '2026-10-26'
+  scope: CORE
+  resources:
+  - label: Weights
+    url: https://huggingface.co/bjing-mit/mdgen
+  - label: Data
+    url: https://huggingface.co/datasets/bjing-mit/tetrapeptide-sims
+  summary: 'Generative surrogate for molecular dynamics, evaluated on tetrapeptide trajectories with exploratory protein-monomer results. The official repository provides training, inference and analysis code, and links to checkpoints and simulation data.'
+  sources:
+  - https://arxiv.org/abs/2409.17808
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/478b06f60662d3cdc1d4f15d4587173a-Abstract-Conference.html
+  - https://github.com/bjing2016/mdgen
+- model: Aurora
+  title: A foundation model for the Earth system
+  paper_url: https://www.nature.com/articles/s41586-025-09005-y
+  arxiv_id: '2405.13063'
+  year: 2025
+  venue: Nature
+  category: physics
+  focus: 'Earth-system pretraining supports forecasting of weather, air pollution, ocean waves and tropical cyclone tracks'
+  code_url: https://github.com/microsoft/aurora
+  project_url: https://microsoft.github.io/aurora/
+  code_status: released
+  publication_status: published
+  published_date: '2024-05-20'
+  added_date: '2026-10-26'
+  verified_date: '2026-10-26'
+  scope: CORE
+  resources:
+  - label: Weights
+    url: https://huggingface.co/microsoft/aurora
+  summary: 'A forecasting foundation model pretrained on diverse geophysical data and adapted to multiple Earth-system tasks. Published in Nature on 2025-05-21 after its 2024 preprint; the official implementation includes inference, checkpoints and fine-tuning examples.'
+  sources:
+  - https://www.nature.com/articles/s41586-025-09005-y
+  - https://arxiv.org/abs/2405.13063
+  - https://www.microsoft.com/en-us/research/publication/aurora-a-foundation-model-for-the-earth-system/
+  - https://github.com/microsoft/aurora
+  - https://microsoft.github.io/aurora/models.html
+- model: JEPA-DNA
+  title: 'JEPA-DNA: Grounding Genomic Foundation Models through Joint-Embedding Predictive Architectures'
+  paper_url: https://arxiv.org/abs/2602.17162
+  arxiv_id: '2602.17162'
+  year: 2026
+  venue: arXiv
+  category: medical
+  focus: 'Predictive representation learning: combines masked genomic-segment embedding prediction with generative objectives for genomic function tasks'
+  code_url: https://github.com/NVIDIA-BioNeMo/JEPA-DNA
+  project_url: ''
+  code_status: released
+  publication_status: preprint
+  published_date: '2026-02-19'
+  added_date: '2026-10-26'
+  verified_date: '2026-10-26'
+  scope: BACKGROUND
+  resources:
+  - label: Weights
+    url: https://huggingface.co/collections/nvidia/jepa-dna
+  summary: 'Continual training framework for genomic foundation models, combining generative learning with latent prediction. It is a predictive representation model rather than a temporal or causal genome simulator. The verified NVIDIA-BioNeMo repository provides pretraining and benchmark code and links to released checkpoints.'
+  sources:
+  - https://arxiv.org/abs/2602.17162
+  - https://arxiv.org/html/2602.17162v4
+  - https://github.com/NVIDIA-BioNeMo/JEPA-DNA
+  - https://huggingface.co/collections/nvidia/jepa-dna
+- model: Cell-JEPA
+  title: 'Cell-JEPA: Latent Representation Learning for Single-Cell Transcriptomics'
+  paper_url: https://arxiv.org/abs/2602.02093
+  arxiv_id: '2602.02093'
+  year: 2026
+  venue: arXiv
+  category: medical
+  focus: 'Predictive representation learning: partial gene-expression views predict cell embeddings; perturbation tests improve absolute states but not effect-size estimates'
+  code_url: ''
+  project_url: ''
+  publication_status: preprint
+  published_date: '2026-02-02'
+  added_date: '2026-10-26'
+  verified_date: '2026-10-26'
+  scope: BACKGROUND
+  summary: 'Learns dropout-robust single-cell representations and evaluates cell-type transfer and perturbation prediction in one cell line. It is not a validated general-purpose cellular intervention simulator. No official public implementation link was verified as of 2026-10-26.'
+  sources:
+  - https://arxiv.org/abs/2602.02093
+  - https://arxiv.org/html/2602.02093v1
+- model: HEP-JEPA
+  title: 'HEP-JEPA: A foundation model for collider physics using joint embedding predictive architecture'
+  paper_url: https://arxiv.org/abs/2502.03933
+  arxiv_id: '2502.03933'
+  year: 2025
+  venue: ICLR World Models Workshop
+  category: physics
+  focus: 'Predictive representation learning: masked jet-constituent embeddings support jet classification, top tagging and quark/gluon discrimination'
+  code_url: ''
+  project_url: https://hep-jepa.github.io/
+  code_status: unreleased
+  publication_status: accepted
+  publication_url: https://hep-jepa.github.io/
+  published_date: '2025-02-06'
+  added_date: '2026-10-26'
+  verified_date: '2026-10-26'
+  scope: BACKGROUND
+  summary: 'A collider-physics predictive representation model, not a particle-collision dynamics simulator. The author project page lists acceptance at the ICLR 2025 World Models and Agentic AI for Scientific Discovery workshops and still announces code release as pending.'
+  sources:
+  - https://arxiv.org/abs/2502.03933
+  - https://hep-jepa.github.io/

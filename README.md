@@ -1,7 +1,7 @@
 # Awesome World Models 🌍
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-171-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/papers-176-blue" alt="Papers">
   <img src="https://img.shields.io/badge/last%20updated-2026--10--26-brightgreen" alt="Last Updated">
   <img src="https://img.shields.io/badge/PRs-welcome-orange" alt="PRs Welcome">
 </p>
@@ -15,7 +15,7 @@ A curated **cross-domain bibliography of world models** across **interactive env
 | Model type | Included role |
 | --- | --- |
 | **Predictive / actionable world models** | Predict future dynamics or the consequences of actions, decisions and interventions |
-| **World foundation / predictive representation models** | Learn latent future representations for perception or planning |
+| **World foundation / predictive representation models** | Learn predictive latent representations for perception, planning or scientific analysis |
 | **Related simulators / evaluation tools** | Simulated interactions and benchmarks; not necessarily learned causal world models |
 
 Papers have one primary category. Preprints are labeled arXiv; **Code**, **Repository**, **Project** and **Data** denote different resource status. Agent simulators and representation learning papers are not automatically considered validated causal world models.
@@ -124,10 +124,12 @@ Robot-action-conditioned video, imagined state and model-based policies.
 
 # Medical & Biological World Models
 
-Patient, disease, imaging and cell-state forecasting or simulation.
+Patient, cell and molecular dynamics, with related biomedical predictive representation models.
 
 | Model | Paper | Key Idea | Venue | Resources |
 | --- | --- | --- | --- | --- |
+| **JEPA-DNA** | [JEPA-DNA: Grounding Genomic Foundation Models through Joint-Embedding Predictive Architectures](https://arxiv.org/abs/2602.17162) | Predictive representation learning: combines masked genomic-segment embedding prediction with generative objectives for genomic function tasks | arXiv 2026 | [Code](https://github.com/NVIDIA-BioNeMo/JEPA-DNA) · [Weights](https://huggingface.co/collections/nvidia/jepa-dna) |
+| **Cell-JEPA** | [Cell-JEPA: Latent Representation Learning for Single-Cell Transcriptomics](https://arxiv.org/abs/2602.02093) | Predictive representation learning: partial gene-expression views predict cell embeddings; perturbation tests improve absolute states but not effect-size estimates | arXiv 2026 | — |
 | **MedDreamer** | [MedDreamer: Model-Based Reinforcement Learning with Latent Imagination on Complex EHRs for Clinical Decision Support](https://arxiv.org/abs/2505.19785) | Clinical decisions from imagined patient trajectories | KDD 2026 | [Code](https://github.com/xuqianyi/medDreamer) |
 | **EHRWorld** | [EHRWorld: A Patient-Centric Medical World Model for Long-Horizon Clinical Trajectories](https://arxiv.org/abs/2602.03569) | Predicts longitudinal patient states and outcomes | arXiv 2026 | — |
 | **Brain-WM** | [Brain-WM: Brain Glioblastoma World Model](https://arxiv.org/abs/2603.07562) | Brain tumor evolution and disease progression | arXiv 2026 | — |
@@ -138,6 +140,7 @@ Patient, disease, imaging and cell-state forecasting or simulation.
 | **Lingshu-Cell** | [Lingshu-Cell: A Generative Cellular World Model for Transcriptome Modeling toward Virtual Cells](https://arxiv.org/abs/2603.25240) | Cellular transcriptome responses to interventions | arXiv 2026 | — |
 | **MeWM** | [Medical World Model: Generative Simulation of Tumor Evolution for Treatment Planning](https://arxiv.org/abs/2506.02327) | Treatment-conditioned tumor simulation and clinical planning | ICCV 2025 | [Code](https://github.com/scott-yjyang/MeWM) |
 | **CheXWorld** | [CheXWorld: Exploring Image World Modeling for Radiograph Representation Learning](https://arxiv.org/abs/2504.13820) | Predictive radiograph representations; related foundation model | CVPR 2025 | [Code](https://github.com/LeapLabTHU/CheXWorld) |
+| **MDGen** | [Generative Modeling of Molecular Dynamics Trajectories](https://arxiv.org/abs/2409.17808) | Molecular trajectory generation supports forward simulation, transition-path sampling, temporal upsampling and dynamics-conditioned design | [NeurIPS 2024](https://proceedings.neurips.cc/paper_files/paper/2024/hash/478b06f60662d3cdc1d4f15d4587173a-Abstract-Conference.html) | [Code](https://github.com/bjing2016/mdgen) · [Weights](https://huggingface.co/bjing-mit/mdgen) · [Data](https://huggingface.co/datasets/bjing-mit/tetrapeptide-sims) |
 | **Brain-JEPA** | [Brain-JEPA: Brain Dynamics Foundation Model with Gradient Positioning and Spatiotemporal Masking](https://arxiv.org/abs/2409.19407) | Spatiotemporal fMRI predictive representation model | NeurIPS 2024 | [Code](https://github.com/Eric-LRL/Brain-JEPA) |
 
 ---
@@ -158,10 +161,12 @@ Social-state transitions and related agent simulation systems.
 
 # Physics, Weather & Scientific World Models
 
-Learned physical and geophysical dynamical systems.
+Physical and Earth-system dynamics, with related scientific predictive representation models.
 
 | Model | Paper | Key Idea | Venue | Resources |
 | --- | --- | --- | --- | --- |
+| **HEP-JEPA** | [HEP-JEPA: A foundation model for collider physics using joint embedding predictive architecture](https://arxiv.org/abs/2502.03933) | Predictive representation learning: masked jet-constituent embeddings support jet classification, top tagging and quark/gluon discrimination | [ICLR World Models Workshop 2025 (accepted)](https://hep-jepa.github.io/) | [Project](https://hep-jepa.github.io/) |
+| **Aurora** | [A foundation model for the Earth system](https://www.nature.com/articles/s41586-025-09005-y) | Earth-system pretraining supports forecasting of weather, air pollution, ocean waves and tropical cyclone tracks | Nature 2025 | [Code](https://github.com/microsoft/aurora) · [Project](https://microsoft.github.io/aurora/) · [Weights](https://huggingface.co/microsoft/aurora) |
 | **NeuralGCM** | [Neural general circulation models for weather and climate](https://www.nature.com/articles/s41586-024-07744-y) | Differentiable climate and atmosphere dynamic simulation | Nature 2024 | [Code](https://github.com/google-research/neuralgcm) |
 | **GenCast** | [Probabilistic weather forecasting with machine learning](https://www.nature.com/articles/s41586-024-08252-9) | Probabilistic atmospheric forecasts | Nature 2024 | — |
 | **GraphCast** | [Learning skillful medium-range global weather forecasting](https://www.science.org/doi/10.1126/science.adi2336) | Graph neural forecasting of weather dynamics | Science 2023 | [Code](https://github.com/google-deepmind/graphcast) |
@@ -399,6 +404,7 @@ Official project/industry releases here are not counted as scholarly publication
 
 # Recent Updates
 
+- **2026-10-26:** Added MDGen, Aurora, JEPA-DNA, Cell-JEPA and HEP-JEPA across molecular dynamics, Earth-system forecasting, genomics, single-cell biology and collider physics, distinguishing dynamic simulators from predictive representation models and verifying resource availability.
 - **2026-10-26:** Added World Model Interpretability (arXiv 2026) to Surveys & Perspectives, identifying Ground–Structure–Verify–Act as a JEPA interpretability research agenda and the author repository as a paper list.
 - **2026-10-21:** Expanded interactive world models from Junchao Huang and the CUHK-Shenzhen Li Jiang research group (WorldCast, LIVE, Memory Forcing, SolarWM, Spatial Memory Intelligence), plus video, evaluation, and embodied work.
 - **2026-10-21:** Reorganized the collection around all-scenario world models and expanded it to medicine, robotics, interactive games, social simulation, science and general model evaluation.
