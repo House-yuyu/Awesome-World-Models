@@ -427,6 +427,8 @@ python scripts/generate_readme.py
 python scripts/generate_readme.py --check
 ```
 
+Use the parsed `papers` list length (reported by `--check`) for paper counts. Counting `- model:` lines can miss records because YAML mapping keys may appear in any order. For consistent editing, keep `model` as the first field of each paper entry.
+
 Valid categories: `survey`, `foundations`, `interactive`, `robotics`, `medical`, `social`, `physics`, `video-spatial`, `bench-general`, and driving-specific `generative`, `latent`, `world-action`, `jepa`, `vla-world`, `vla-general`, `benchmark`.
 
 Supply a paper, publication status, specific predictive mechanism and verified code links. Code states include `released`, `partial`, `repository-only`, `unreleased` and `data-only`.

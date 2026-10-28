@@ -1433,8 +1433,8 @@ papers:
   publication_status: preprint
   sources:
   - https://arxiv.org/abs/2609.16697
-- arxiv_id: '2610.20609'
-  model: SafeDriveVLA
+- model: SafeDriveVLA
+  arxiv_id: '2610.20609'
   category: vla-world
   focus: Navigation-conditioned latent dreaming identifies unsafe instruction following
   venue: CoRL
@@ -1452,8 +1452,8 @@ papers:
   - https://arxiv.org/abs/2610.20609
   - https://github.com/ASGuard-UCI/safedrive-vla
   - https://safedrive-vla.github.io/SafeDriveVLA/
-- arxiv_id: '2610.17903'
-  model: DriveWLA
+- model: DriveWLA
+  arxiv_id: '2610.17903'
   category: vla-world
   focus: World, language, and action experts share dynamics and semantic context; Flow-GRPO refines planning
   venue: arXiv
@@ -1470,8 +1470,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2610.17903
-- arxiv_id: '2610.17688'
-  model: OccWAM
+- model: OccWAM
+  arxiv_id: '2610.17688'
   category: world-action
   focus: Joint occupancy and ego-trajectory flow matching refines scene-centric and ego-centric futures
   venue: arXiv
@@ -1487,8 +1487,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2610.17688
-- arxiv_id: '2610.16139'
-  model: DPR
+- model: DPR
+  arxiv_id: '2610.16139'
   category: latent
   focus: Kinematics-aware latent regularization improves physical consistency of long-horizon rollouts
   venue: arXiv
@@ -1504,8 +1504,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2610.16139
-- arxiv_id: '2610.14871'
-  model: MORE
+- model: MORE
+  arxiv_id: '2610.14871'
   category: jepa
   focus: Motion-conditioned V-JEPA registers form a compact shared interface for future prediction and planning
   venue: arXiv
@@ -1521,8 +1521,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2610.14871
-- arxiv_id: '2610.14544'
-  model: InfraWorld
+- model: InfraWorld
+  arxiv_id: '2610.14544'
   category: generative
   focus: Dense BEV states and persistent motion queries forecast roadside 4D occupancy
   venue: arXiv
@@ -1538,8 +1538,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2610.14544
-- arxiv_id: '2610.13781'
-  model: SimVTA
+- model: SimVTA
+  arxiv_id: '2610.13781'
   category: world-action
   focus: Simulator-rendered candidate futures align video supervision with reward-optimized trajectories
   venue: arXiv
@@ -1558,8 +1558,8 @@ papers:
   - https://arxiv.org/abs/2610.13781
   - https://github.com/OpenDriveLab/SimVTA
   - https://opendrivelab.com/SimVTA/
-- arxiv_id: '2610.11382'
-  model: PlanWAM
+- model: PlanWAM
+  arxiv_id: '2610.11382'
   category: world-action
   focus: A privileged future posterior teaches a history-only prior to predict planning-shaped futures
   venue: arXiv
@@ -1577,8 +1577,8 @@ papers:
   sources:
   - https://arxiv.org/abs/2610.11382
   - https://github.com/jinchan9/PlanWAM
-- arxiv_id: '2610.11161'
-  model: VGGTWorld-VLA
+- model: VGGTWorld-VLA
+  arxiv_id: '2610.11161'
   category: vla-world
   focus: Driving semantics and ego actions condition future 3D geometry in a VGGT-based world model
   venue: arXiv
@@ -1594,8 +1594,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2610.11161
-- arxiv_id: '2610.11060'
-  model: AffordDrive3D
+- model: AffordDrive3D
+  arxiv_id: '2610.11060'
   category: world-action
   focus: Joint future geometry and drivable or collision-critical affordances guide action planning
   venue: arXiv
@@ -1612,8 +1612,8 @@ papers:
   sources:
   - https://arxiv.org/abs/2610.11060
   - https://afforddrive3d.github.io/
-- arxiv_id: '2610.07381'
-  model: GeoWM
+- model: GeoWM
+  arxiv_id: '2610.07381'
   category: generative
   focus: Flow matching directly forecasts explicit future geometry at requested horizons
   venue: arXiv
@@ -1629,8 +1629,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2610.07381
-- arxiv_id: '2609.39245'
-  model: ReWAM
+- model: ReWAM
+  arxiv_id: '2609.39245'
   category: world-action
   focus: Level-k reciprocal-response modeling couples ego and other-agent decisions
   venue: arXiv
@@ -1646,8 +1646,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2609.39245
-- arxiv_id: '2609.37098'
-  model: V2X-WAM
+- model: V2X-WAM
+  arxiv_id: '2609.37098'
   category: world-action
   focus: Vehicle-infrastructure observations support action-conditioned occupancy and flow feedback
   venue: arXiv
@@ -1663,8 +1663,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2609.37098
-- arxiv_id: '2609.36851'
-  model: RoXDrive
+- model: RoXDrive
+  arxiv_id: '2609.36851'
   category: latent
   focus: Closed-loop RL retains world-model rollouts that faithfully follow conditioning actions
   venue: arXiv
@@ -1683,8 +1683,8 @@ papers:
   - https://arxiv.org/abs/2609.36851
   - https://github.com/Hongbin98/RoXDrive
   - https://hongbin98.github.io/RoXDrive/
-- arxiv_id: '2609.33737'
-  model: MomWorld
+- model: MomWorld
+  arxiv_id: '2609.33737'
   category: latent
   focus: Latent momentum propagation and adaptive resets stabilize long-horizon planning
   venue: arXiv
@@ -1700,8 +1700,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2609.33737
-- arxiv_id: '2609.37970'
-  model: PhysWAM
+- model: PhysWAM
+  arxiv_id: '2609.37970'
   category: world-action
   focus: Co-generates multiview video, metric depth, and ego motion under a shared 3D projection constraint
   venue: arXiv
@@ -1717,8 +1717,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2609.37970
-- arxiv_id: '2609.36438'
-  model: World4Scorer
+- model: World4Scorer
+  arxiv_id: '2609.36438'
   category: jepa
   focus: Trajectory-conditioned JEPA states learn candidate scores from simulator outcomes and logged futures
   venue: arXiv
@@ -1736,8 +1736,8 @@ papers:
   - https://arxiv.org/abs/2609.36438
   - https://github.com/World4Scorer/World4Scorer
   - https://world4scorer.github.io/
-- arxiv_id: '2609.34749'
-  model: CoDrive
+- model: CoDrive
+  arxiv_id: '2609.34749'
   category: generative
   focus: Shared world coordinates and cross-vehicle attention maintain multi-agent video consistency
   venue: arXiv
@@ -1754,8 +1754,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2609.34749
-- arxiv_id: '2609.33854'
-  model: ReDrive
+- model: ReDrive
+  arxiv_id: '2609.33854'
   category: latent
   focus: Future representation prediction strengthens planning features without inference-time world rollout
   venue: arXiv
@@ -1771,8 +1771,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2609.33854
-- arxiv_id: '2609.33264'
-  model: VehDyn
+- model: VehDyn
+  arxiv_id: '2609.33264'
   category: benchmark
   focus: Controlled CARLA-CarSim scenarios separate visual quality from kinematic and dynamic fidelity
   venue: arXiv
@@ -1788,8 +1788,8 @@ papers:
   scope: RELATED
   sources:
   - https://arxiv.org/abs/2609.33264
-- arxiv_id: '2609.24626'
-  model: Relationally Grounded LWM
+- model: Relationally Grounded LWM
+  arxiv_id: '2609.24626'
   category: latent
   focus: Privileged traffic-graph semantics supervise latent states without extra inference branches
   venue: IROS RoBoWoMo Workshop
@@ -1805,8 +1805,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2609.24626
-- arxiv_id: '2609.22762'
-  model: DriveReferee
+- model: DriveReferee
+  arxiv_id: '2609.22762'
   category: world-action
   focus: A learned geometry readout supports analytic collision and drivable-area checks
   venue: arXiv
@@ -1822,8 +1822,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2609.22762
-- arxiv_id: '2609.21712'
-  model: ZYT-World
+- model: ZYT-World
+  arxiv_id: '2609.21712'
   category: generative
   focus: Streaming mixed fisheye-pinhole video generation supports action control and revisitation memory
   venue: arXiv
@@ -1840,8 +1840,8 @@ papers:
   sources:
   - https://arxiv.org/abs/2609.21712
   - https://zyt-aim.github.io/ZYT-World/
-- arxiv_id: '2405.17398'
-  model: Vista
+- model: Vista
+  arxiv_id: '2405.17398'
   category: generative
   focus: Controllable driving-video rollouts generalize across scenes and provide visual reward signals
   venue: NeurIPS
@@ -1859,8 +1859,8 @@ papers:
   - https://arxiv.org/abs/2405.17398
   - https://github.com/OpenDriveLab/Vista
   - https://vista-demo.github.io/
-- arxiv_id: '2406.08481'
-  model: LAW
+- model: LAW
+  arxiv_id: '2406.08481'
   category: latent
   focus: Ego-trajectory-conditioned future features provide self-supervised planning representations
   venue: ICLR
@@ -1879,8 +1879,8 @@ papers:
   - https://arxiv.org/abs/2406.08481
   - https://proceedings.iclr.cc/paper_files/paper/2025/hash/6aa4967920e495e90aeeaa3acf18d019-Abstract-Conference.html
   - https://github.com/BraveGroup/LAW
-- arxiv_id: '2504.01941'
-  model: WoTE
+- model: WoTE
+  arxiv_id: '2504.01941'
   category: latent
   focus: BEV future states support online evaluation and selection of candidate trajectories
   venue: ICCV
@@ -1899,8 +1899,8 @@ papers:
   - https://arxiv.org/abs/2504.01941
   - https://openaccess.thecvf.com/content/ICCV2025/html/Li_End-to-End_Driving_with_Online_Trajectory_Evaluation_via_BEV_World_Model_ICCV_2025_paper.html
   - https://github.com/liyingyanUCAS/WoTE
-- arxiv_id: '2412.18607'
-  model: DrivingGPT
+- model: DrivingGPT
+  arxiv_id: '2412.18607'
   category: world-action
   focus: Interleaved image and action tokens unify world simulation and planning by next-token prediction
   venue: ICCV
@@ -1918,8 +1918,8 @@ papers:
   sources:
   - https://arxiv.org/abs/2412.18607
   - https://openaccess.thecvf.com/content/ICCV2025/html/Chen_DrivingGPT_Unifying_Driving_World_Modeling_and_Planning_with_Multi-modal_Autoregressive_ICCV_2025_paper.html
-- arxiv_id: '2503.20523'
-  model: GAIA-2
+- model: GAIA-2
+  arxiv_id: '2503.20523'
   category: generative
   focus: Latent diffusion jointly controls ego motion, agents, environment, and consistent camera views
   venue: arXiv
@@ -1936,8 +1936,8 @@ papers:
   sources:
   - https://arxiv.org/abs/2503.20523
   - https://wayve.ai/thinking/gaia-2/
-- arxiv_id: '2502.11663'
-  model: MaskGWM
+- model: MaskGWM
+  arxiv_id: '2502.11663'
   category: generative
   focus: Spatial-temporal masked reconstruction improves diffusion-transformer driving video prediction
   venue: CVPR
@@ -1956,8 +1956,8 @@ papers:
   - https://arxiv.org/abs/2502.11663
   - https://openaccess.thecvf.com/content/CVPR2025/html/Ni_MaskGWM_A_Generalizable_Driving_World_Model_with_Video_Mask_Reconstruction_CVPR_2025_paper.html
   - https://github.com/SenseTime-FVG/OpenDWM
-- arxiv_id: '2410.10429'
-  model: DOME
+- model: DOME
+  arxiv_id: '2410.10429'
   category: generative
   focus: Trajectory-conditioned diffusion forecasts detailed long-horizon 3D occupancy
   venue: arXiv
@@ -1975,8 +1975,8 @@ papers:
   - https://arxiv.org/abs/2410.10429
   - https://github.com/gusongen/DOME
   - https://gusongen.github.io/DOME/
-- arxiv_id: '2409.03272'
-  model: OccLLaMA
+- model: OccLLaMA
+  arxiv_id: '2409.03272'
   category: vla-world
   focus: A shared occupancy-language-action vocabulary enables multimodal future prediction and planning
   venue: arXiv
@@ -1993,8 +1993,8 @@ papers:
   sources:
   - https://arxiv.org/abs/2409.03272
   - https://vilonge.github.io/OccLLaMA_Page/
-- arxiv_id: '2506.09981'
-  model: ReSim
+- model: ReSim
+  arxiv_id: '2506.09981'
   category: generative
   focus: Expert and non-expert data improve action-faithful driving simulation and video-based rewards
   venue: NeurIPS
@@ -2014,8 +2014,8 @@ papers:
   - https://proceedings.neurips.cc/paper_files/paper/2025/hash/f502981cbe221d857ad409450a7917c3-Abstract-Conference.html
   - https://github.com/OpenDriveLab/ReSim
   - https://opendrivelab.com/ReSim
-- arxiv_id: '2606.15341'
-  model: CausalDrive
+- model: CausalDrive
+  arxiv_id: '2606.15341'
   category: generative
   focus: Text and ego actions drive reactive future generation without oracle background trajectories
   venue: arXiv
@@ -2031,8 +2031,8 @@ papers:
   scope: CORE
   sources:
   - https://arxiv.org/abs/2606.15341
-- arxiv_id: '2603.14948'
-  model: WorldDrive
+- model: WorldDrive
+  arxiv_id: '2603.14948'
   category: latent
   focus: A shared vision-motion representation transfers trajectory-conditioned world learning to planning
   venue: NeurIPS
@@ -2050,8 +2050,8 @@ papers:
   sources:
   - https://arxiv.org/abs/2603.14948
   - https://github.com/TabGuigui/WorldDrive
-- arxiv_id: '2610.12412'
-  model: WorldCast
+- model: WorldCast
+  arxiv_id: '2610.12412'
   category: interactive
   focus: Independent players exchange shared player and scene states for consistent multiplayer game-world views
   venue: arXiv
@@ -2069,8 +2069,8 @@ papers:
   - https://arxiv.org/abs/2610.12412
   - https://github.com/Ziyang-Ye/WorldCast
   - https://ziyang-ye.github.io/WorldCast-Page/
-- arxiv_id: '2512.10958'
-  model: WorldLens
+- model: WorldLens
+  arxiv_id: '2512.10958'
   category: benchmark
   focus: Evaluates generated worlds across visual, geometric, action, downstream-task, and human-preference criteria
   venue: CVPR
@@ -2090,8 +2090,8 @@ papers:
   - https://openaccess.thecvf.com/content/CVPR2026/papers/Liang_WorldLens_Full-Spectrum_Evaluations_of_Driving_World_Models_in_Real_World_CVPR_2026_paper.pdf
   - https://github.com/worldbench/WorldLens
   - https://worldbench.github.io/worldlens
-- arxiv_id: '2406.15349'
-  model: NAVSIM v1
+- model: NAVSIM v1
+  arxiv_id: '2406.15349'
   category: benchmark
   focus: Non-reactive simulation-based metrics benchmark planning on real driving logs
   venue: NeurIPS Datasets and Benchmarks
@@ -2108,8 +2108,8 @@ papers:
   sources:
   - https://arxiv.org/abs/2406.15349
   - https://github.com/autonomousvision/navsim/tree/v1.1
-- arxiv_id: '2506.04218'
-  model: NAVSIM v2
+- model: NAVSIM v2
+  arxiv_id: '2506.04218'
   category: benchmark
   focus: Pseudo-simulation uses perturbed future observations to evaluate recovery and planning robustness
   venue: CoRL
@@ -2126,8 +2126,8 @@ papers:
   sources:
   - https://arxiv.org/abs/2506.04218
   - https://github.com/autonomousvision/navsim
-- arxiv_id: '2406.03877'
-  model: Bench2Drive
+- model: Bench2Drive
+  arxiv_id: '2406.03877'
   category: benchmark
   focus: CARLA short-route closed-loop benchmark measures multiple driving abilities and failure modes
   venue: NeurIPS Datasets and Benchmarks
@@ -2145,8 +2145,8 @@ papers:
   - https://arxiv.org/abs/2406.03877
   - https://github.com/Thinklab-SJTU/Bench2Drive
   - https://thinklab-sjtu.github.io/Bench2Drive/
-- arxiv_id: '2412.01718'
-  model: HUGSIM
+- model: HUGSIM
+  arxiv_id: '2412.01718'
   category: benchmark
   focus: 3D Gaussian reconstruction enables real-time photorealistic closed-loop policy evaluation
   venue: IEEE TPAMI
