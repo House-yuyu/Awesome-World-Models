@@ -1,8 +1,8 @@
 # Awesome World Models 🌍
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-176-blue" alt="Papers">
-  <img src="https://img.shields.io/badge/last%20updated-2026--10--26-brightgreen" alt="Last Updated">
+  <img src="https://img.shields.io/badge/papers-192-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/last%20updated-2026--11--02-brightgreen" alt="Last Updated">
   <img src="https://img.shields.io/badge/PRs-welcome-orange" alt="PRs Welcome">
 </p>
 
@@ -90,11 +90,15 @@ Controllable generated interactive environments and playable simulations.
 
 | Model | Paper | Key Idea | Venue | Resources |
 | --- | --- | --- | --- | --- |
+| **Fight World Model** | [Fight World Model: Customizable Combat through Visual Interaction Proxies](https://arxiv.org/abs/2610.40607) | Executable combat rules compile persistent state transitions into visual proxies for controllable game rendering | arXiv 2026 | [Repository](https://github.com/fight-world-model/FWM) (code pending) · [Project](https://fight-world-model.github.io/) |
+| **Hy-Nomas** | [Hy-Nomas: Towards Free-form Interactive World Generation](https://arxiv.org/abs/2610.36729) | Multi-turn text and camera control through action-window causal attention and history-aware diffusion | arXiv 2026 | [Code](https://github.com/Tencent-Hunyuan/Hy-Nomas) · [Weights](https://huggingface.co/tencent/Hy-Nomas) |
+| **World-in-Context** | [World-in-Context: Interactive Video World Modeling with In-Context Conditioning](https://arxiv.org/abs/2610.33169) | Explicit view, action and camera tokens with transport-aware temporal encoding for perspective switching | arXiv 2026 | [Repository](https://github.com/aigc3d/World-in-Context) (code pending) · [Project](https://haroldchen19.github.io/WiC-site/) |
 | **WorldCast** | [WorldCast: Distributed Multiplayer World Models](https://arxiv.org/abs/2610.12412) | Independent players exchange shared player and scene states for consistent multiplayer game-world views | arXiv 2026 | [Code](https://github.com/Ziyang-Ye/WorldCast) · [Project](https://ziyang-ye.github.io/WorldCast-Page/) |
 | **Spatial Memory Intelligence** | [Spatial Memory Intelligence: Endowing World Models with Understanding-Driven Long-Term Memory](https://arxiv.org/abs/2610.02521) | Understanding-guided spatial memory clustering, sparsification, and action-conditioned retrieval | arXiv 2026 | [Repository](https://github.com/xbyym/Spatial-Memory-Intelligence) (code pending) · [Project](https://spatial-memory-intelligence.github.io/) |
 | **SolarWM** | [SolarWM: Open Data and Scalable Training for Long-Horizon Video World Models](https://arxiv.org/abs/2609.02886) | Open training pipeline for real-time interactive world models using 1.43M video clips | arXiv 2026 | [Code](https://github.com/Junchao-cs/SolarWM) · [Project](https://junchao-cs.github.io/SolarWM-Web/) · [Data](https://huggingface.co/datasets/junchaoh-cs/SolarWM-Data) |
 | **LIVE** | [LIVE: Long-horizon Interactive Video World Modeling](https://arxiv.org/abs/2602.03747) | Forward/reverse cycle-consistency curbs error accumulation in long interactive video rollouts | ICML 2026 | [Code](https://github.com/Junchao-cs/LIVE) (partial) · [Project](https://junchao-cs.github.io/LIVE-demo/) |
 | **Memory Forcing** | [Memory Forcing: Spatio-Temporal Memory for Consistent Scene Generation on Minecraft](https://arxiv.org/abs/2510.03198) | Spatiotemporal scene memory improves coherence when an interactive Minecraft camera revisits places | NeurIPS 2026 | [Repository](https://github.com/Junchao-cs/Memory-Forcing) (code pending) · [Project](https://junchao-cs.github.io/MemoryForcing/) |
+| **Dreamer 4** | [Training Agents Inside of Scalable World Models](https://arxiv.org/abs/2509.24527) | Real-time Minecraft world simulation enables long-horizon agent learning through offline imagination | arXiv 2025 | [Project](https://danijar.com/project/dreamer4/) |
 | **GameNGen** | [Diffusion Models Are Real-Time Game Engines](https://arxiv.org/abs/2408.14837) | Action-conditioned diffusion game engine | ICLR 2025 | — |
 | **GameFactory** | [GameFactory: Creating New Games with Generative Interactive Videos](https://arxiv.org/abs/2501.08325) | Action-controlled video games with scene generalization | ICCV 2025 | [Code](https://github.com/KlingAIResearch/GameFactory) (partial) |
 | **Matrix-Game 2.0** | [Matrix-Game 2.0: An Open-Source, Real-Time, and Streaming Interactive World Model](https://arxiv.org/abs/2508.13009) | Real-time neural games steered by player actions | arXiv 2025 | [Code](https://github.com/SkyworkAI/Matrix-Game) |
@@ -109,8 +113,16 @@ Robot-action-conditioned video, imagined state and model-based policies.
 
 | Model | Paper | Key Idea | Venue | Resources |
 | --- | --- | --- | --- | --- |
+| **CausalWAM** | [CausalWAM: Learning the Causes of Actions in World Action Models](https://arxiv.org/abs/2610.42096) | Sparse routing separates action-causing latent variables from scene-prediction nuisances with identifiability theory | arXiv 2026 | — |
+| **AW-0** | [Agentic World Action Models](https://arxiv.org/abs/2610.30136) | Joint generation of reusable code skills, future video and robot actions in a tri-stream world-action model | arXiv 2026 | [Code](https://github.com/ZhuoyangLiu2005/agentic-wam) · [Project](https://agentic-wam.github.io/) · [Weights](https://huggingface.co/miniFranka/agentic-wam-pretrain-yamego3k-soup-e1) |
+| **T2-z** | [T2-z: Test-Time Optimization of Environment Latents for Robotic World Models](https://arxiv.org/abs/2610.22364) | Test-time environment latent adaptation handles unseen physics and interaction rules for robot prediction | arXiv 2026 | [Code](https://github.com/T2-z-latent-optimization/T2-z) · [Project](https://t2-z-latent-optimization.github.io/) · [Data](https://huggingface.co/datasets/huagailuowen/T2-z-datasets) |
+| **Long-WAM** | [Long-WAM: Scaling the Context of World-Action Models](https://arxiv.org/abs/2610.10528) | Causal autoregressive video pretraining exploits long visual context for real-time world-action robot control | arXiv 2026 | [Code](https://github.com/NVlabs/LongLive/tree/main/Long-WAM) · [Project](https://nvlabs.github.io/LongLive/Long-WAM/) |
+| **OpenWAM (Stanford)** | [OpenWAM: An Open Framework for Composable World-Action Models](https://arxiv.org/abs/2610.07922) | Composable video-action generation programs and counterfactual inverse/forward dynamics on a common backbone | arXiv 2026 | [Code](https://github.com/OpenWAM/OpenWAM) (partial) · [Project](https://openwam.stanford.edu/) |
 | **EVO-WAM** | [EVO-WAM: Evolving World Action Models through Video-Action Verification](https://arxiv.org/abs/2609.38057) | Self-improving embodied world-action policies from verified imagined video/action rollouts | arXiv 2026 | [Repository](https://github.com/Clausy9/EVO-WAM) · [Project](https://evo-wam.github.io/) |
 | **XPACE** | [XPACE: Joint World and Action Modeling from Heterogeneous Experience](https://arxiv.org/abs/2609.17372) | Shared video backbone jointly predicts robot actions and future video | arXiv 2026 | [Project](https://xpeng-robotics.github.io/xpace/) |
+| **SyncWorld** | [SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators](https://arxiv.org/abs/2609.09155) | Visual calibration of action-to-video mappings enables zero-shot simulation across robot environments and views | NeurIPS 2026 (accepted) | [Code](https://github.com/UMass-Embodied-AGI/SyncWorld) · [Project](https://umass-embodied-agi.github.io/SyncWorld/) · [Weights](https://huggingface.co/yyuncong/SyncWorld) |
+| **Fast-WAM** | [Fast-WAM: Do World Action Models Need Test-time Future Imagination?](https://arxiv.org/abs/2603.16666) | Video co-training improves robot policies even when future video is skipped during inference | arXiv 2026 | [Code](https://github.com/yuantianyuan01/FastWAM) · [Project](https://yuantianyuan01.github.io/FastWAM/) |
+| **DreamZero** | [World Action Models are Zero-shot Policies](https://arxiv.org/abs/2602.15922) | Joint video-action diffusion learns transferable physical dynamics for zero-shot robot control | arXiv 2026 | [Code](https://github.com/dreamzero0/dreamzero) · [Project](https://dreamzero0.github.io/) |
 | **DreamDojo** | [DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos](https://proceedings.mlr.press/v306/gao26q.html) | Action-conditioned robot dynamics learned from human video | ICML 2026 | [Code](https://github.com/NVIDIA/DreamDojo) |
 | **DreamGen** | [DreamGen: Unlocking Generalization in Robot Learning through Neural Trajectories](https://arxiv.org/abs/2505.12705) | Synthetic world trajectories for robot policies | arXiv 2025 | — |
 | **WorldVLA** | [WorldVLA: Towards Autoregressive Action World Model](https://arxiv.org/abs/2506.21539) | Shared autoregressive world and action model | arXiv 2025 | — |
@@ -128,6 +140,7 @@ Patient, cell and molecular dynamics, with related biomedical predictive represe
 
 | Model | Paper | Key Idea | Venue | Resources |
 | --- | --- | --- | --- | --- |
+| **PatientWM** | [PatientWM: Towards Generalizable Clinical World Models via Unified Patient States](https://arxiv.org/abs/2610.17059) | Unified multimodal patient states and action-conditioned latent histories for clinical forecasting and planning | arXiv 2026 | — |
 | **JEPA-DNA** | [JEPA-DNA: Grounding Genomic Foundation Models through Joint-Embedding Predictive Architectures](https://arxiv.org/abs/2602.17162) | Predictive representation learning: combines masked genomic-segment embedding prediction with generative objectives for genomic function tasks | arXiv 2026 | [Code](https://github.com/NVIDIA-BioNeMo/JEPA-DNA) · [Weights](https://huggingface.co/collections/nvidia/jepa-dna) |
 | **Cell-JEPA** | [Cell-JEPA: Latent Representation Learning for Single-Cell Transcriptomics](https://arxiv.org/abs/2602.02093) | Predictive representation learning: partial gene-expression views predict cell embeddings; perturbation tests improve absolute states but not effect-size estimates | arXiv 2026 | — |
 | **MedDreamer** | [MedDreamer: Model-Based Reinforcement Learning with Latent Imagination on Complex EHRs for Clinical Decision Support](https://arxiv.org/abs/2505.19785) | Clinical decisions from imagined patient trajectories | KDD 2026 | [Code](https://github.com/xuqianyi/medDreamer) |
@@ -196,6 +209,9 @@ Evaluation across action fidelity, physical consistency and geometry.
 
 | Benchmark | Paper | Evaluation Focus | Venue | Resources |
 | --- | --- | --- | --- | --- |
+| **GameVerse** | [GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling](https://arxiv.org/abs/2610.37257) | Minute-scale gameplay data with camera trajectories and event-aligned captions for long-horizon world modeling | NeurIPS 2026 (accepted) | [Data](https://huggingface.co/datasets/Kangverse/GameVerse) · [Project](https://kangverse.github.io/GameVerse/) · [Code](https://github.com/kangverse/GameVerse/tree/main/data_tools) |
+| **WMEval** | [WMEval: Evaluating Interactive World Models Grounded on Physical Simulations](https://arxiv.org/abs/2610.33894) | Unity-grounded benchmark checks physical causality, state consistency and action fidelity of interactive rollouts | arXiv 2026 | [Code](https://github.com/hao-ai-lab/WMEval) · [Project](https://snyhlx.github.io/wmeval-blog/) · [Data](https://huggingface.co/datasets/lmgame/WMEval-Lite) |
+| **AnyGoal** | [AnyGoal: On World Model Generalization Beyond Expert Rollouts](https://arxiv.org/abs/2610.26844) | Goal-shifted tasks test compositional dynamics and planning generalization beyond expert demonstrations | arXiv 2026 | [Code](https://github.com/galilai-group/AnyGoal) · [Project](https://hazel-heejeong-nam.github.io/anygoal/) |
 | **Orbia** | [Orbia: Do Generated Videos Form a Consistent 3D World?](https://arxiv.org/abs/2610.20693) | Revisit tests assess input preservation, generated content persistence and 3D scene consistency | arXiv 2026 | [Code](https://github.com/worldbench/Orbia) · [Project](https://orbia-bench.github.io/) · [Data](https://huggingface.co/datasets/Orbia/Orbia) |
 | **4DWorldBench** | [4DWorldBench: A Comprehensive Evaluation Framework for 3D/4D World Generation Models](https://openaccess.thecvf.com/content/CVPR2026/html/Lu_4DWorldBench_A_Comprehensive_Evaluation_Framework_for_3D4D_World_Generation_Models_CVPR_2026_paper.html) | Evaluates geometric and temporal world generation | CVPR 2026 | — |
 | **WorldSimBench** | [WorldSimBench: Towards Video Generation Models as World Simulators](https://proceedings.mlr.press/v267/qin25f.html) | Evaluates interactive fidelity of generative world simulators | ICML 2025 | — |
@@ -396,6 +412,7 @@ Official project/industry releases here are not counted as scholarly publication
 | --- | --- | --- |
 | Genie 2 | Interactive environments | [DeepMind](https://deepmind.google/blog/genie-2-a-large-scale-foundation-world-model/) |
 | Genie 3 | Interactive environments | [DeepMind](https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/) |
+| Genie 4 | Interactive environments (research preview; no paper) | [DeepMind](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/) |
 | Marble | Spatial worlds | [World Labs](https://www.worldlabs.ai/blog/marble-world-model) |
 | Matrix-Game 4 | Interactive games | [Repository](https://github.com/SkyworkAI/Matrix-Game/tree/main/Matrix-Game-4) |
 | NVIDIA Cosmos | Physical AI | [Repository](https://github.com/NVIDIA/cosmos) |
@@ -404,6 +421,8 @@ Official project/industry releases here are not counted as scholarly publication
 
 # Recent Updates
 
+- **2026-11-02:** Added 16 curated papers spanning interactive games, embodied world-action models, clinical world models and general evaluation datasets; checked official paper, project and code links and explicitly marked pending releases.
+- **2026-11-02:** Added Google DeepMind Genie 4 as an industry research system (not counted as a paper). Reviewed 45 pre-2025 papers against public citation records; none could be confirmed below 10 citations, so no entries were removed.
 - **2026-10-26:** Added MDGen, Aurora, JEPA-DNA, Cell-JEPA and HEP-JEPA across molecular dynamics, Earth-system forecasting, genomics, single-cell biology and collider physics, distinguishing dynamic simulators from predictive representation models and verifying resource availability.
 - **2026-10-26:** Added World Model Interpretability (arXiv 2026) to Surveys & Perspectives, identifying Ground–Structure–Verify–Act as a JEPA interpretability research agenda and the author repository as a paper list.
 - **2026-10-21:** Expanded interactive world models from Junchao Huang and the CUHK-Shenzhen Li Jiang research group (WorldCast, LIVE, Memory Forcing, SolarWM, Spatial Memory Intelligence), plus video, evaluation, and embodied work.
