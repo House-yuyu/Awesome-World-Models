@@ -1,7 +1,7 @@
 # Awesome World Models 🌍
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-192-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/papers-188-blue" alt="Papers">
   <img src="https://img.shields.io/badge/last%20updated-2026--11--02-brightgreen" alt="Last Updated">
   <img src="https://img.shields.io/badge/PRs-welcome-orange" alt="PRs Welcome">
 </p>
@@ -57,7 +57,6 @@ Cross-domain world-model reviews.
 | --- | --- | --- | --- | --- |
 | **World Model Interpretability** | [World Model Interpretability: From Decoding Representations to Understanding Latent Worlds](https://arxiv.org/abs/2610.25296) | Perspective research agenda for JEPA latent worlds: Ground–Structure–Verify–Act covers factor grounding, relations and dynamics, causal verification, and targeted intervention; no new empirically validated architecture | arXiv 2026 | [Paper List](https://github.com/Jize-W/Awesome-World-Model-Interpretability) |
 | **Embodied WM Survey** | [World Models for Embodied Intelligence: From Plausible to Controllable to Actionable](https://arxiv.org/abs/2609.16697) | Capability hierarchy from plausible prediction to controllable and actionable embodied models | arXiv 2026 | — |
-| **Latent WM Survey** | [Latent World Models for Automated Driving: A Unified Taxonomy, Evaluation Framework, and Open Challenges](https://arxiv.org/abs/2603.09086) | Latent-state taxonomy, evaluation, and deployment challenges | arXiv 2026 | — |
 | **DWM Survey** | [The Role of World Models in Shaping Autonomous Driving: A Comprehensive Survey](https://arxiv.org/abs/2502.10498) | Driving world models by predicted scene modality | [Frontiers of Computer Science 2026 (accepted)](https://journal.hep.com.cn/fcs/EN/10.1007/s11704-026-60102-1) | [Paper List](https://github.com/LMD0311/Awesome-World-Model) |
 | **AV JEPA Survey** | [Joint Embedding Predictive Architecture for Autonomous Vehicle Safety and Security: A Comprehensive Survey](https://www.sciencedirect.com/science/article/pii/S1474034626002909) | JEPA for autonomous-vehicle perception, safety, security, and deployment | Advanced Engineering Informatics 2026 | — |
 | **Medical World Models Survey** | [Medical world models: representing medical states, modelling clinical dynamics and guiding intervention policies](https://arxiv.org/abs/2606.16721) | Patient dynamics and intervention planning | arXiv 2026 | [Repository](https://github.com/1999kevin/awesome_medical_world_models) |
@@ -178,7 +177,6 @@ Physical and Earth-system dynamics, with related scientific predictive represent
 
 | Model | Paper | Key Idea | Venue | Resources |
 | --- | --- | --- | --- | --- |
-| **HEP-JEPA** | [HEP-JEPA: A foundation model for collider physics using joint embedding predictive architecture](https://arxiv.org/abs/2502.03933) | Predictive representation learning: masked jet-constituent embeddings support jet classification, top tagging and quark/gluon discrimination | [ICLR World Models Workshop 2025 (accepted)](https://hep-jepa.github.io/) | [Project](https://hep-jepa.github.io/) |
 | **Aurora** | [A foundation model for the Earth system](https://www.nature.com/articles/s41586-025-09005-y) | Earth-system pretraining supports forecasting of weather, air pollution, ocean waves and tropical cyclone tracks | Nature 2025 | [Code](https://github.com/microsoft/aurora) · [Project](https://microsoft.github.io/aurora/) · [Weights](https://huggingface.co/microsoft/aurora) |
 | **NeuralGCM** | [Neural general circulation models for weather and climate](https://www.nature.com/articles/s41586-024-07744-y) | Differentiable climate and atmosphere dynamic simulation | Nature 2024 | [Code](https://github.com/google-research/neuralgcm) |
 | **GenCast** | [Probabilistic weather forecasting with machine learning](https://www.nature.com/articles/s41586-024-08252-9) | Probabilistic atmospheric forecasts | Nature 2024 | — |
@@ -326,9 +324,7 @@ Driving predictive representation and joint-embedding methods.
 | **WA-JEPA** | [WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action Modeling in Autonomous Driving](https://arxiv.org/abs/2608.20974) | Future-masked V-JEPA + flow matching + joint future-scene / action prediction | arXiv 2026 | [Code](https://github.com/AFARI-Research/WA-JEPA) · [Project](https://wa-jepa.github.io/) |
 | **Auto-JEPA** | [Auto-JEPA: A Latent World Model of Continuous Intent for End-to-End Autonomous Driving](https://arxiv.org/abs/2607.29031) | Predicts planning-relevant continuous future-intent embeddings instead of dense future scenes | arXiv 2026 | [Code](https://github.com/NoctYang/Auto-JEPA) |
 | **Drive-JEPA** | [Drive-JEPA: Video JEPA Meets Multimodal Trajectory Distillation for End-to-End Driving](https://arxiv.org/abs/2601.22032) | V-JEPA video pre-training aligned with proposal-based end-to-end planning | arXiv 2026 | [Code](https://github.com/linhanwang/Drive-JEPA) |
-| **HanoiWorld** | [HanoiWorld: A Joint Embedding Predictive Architecture Based World Model for Autonomous Vehicle Controller](https://arxiv.org/abs/2601.01577) | JEPA-based recurrent world model for long-horizon autonomous-vehicle control | arXiv 2026 | — |
 | **AD-L-JEPA** | [Self-Supervised Representation Learning with Joint Embedding Predictive Architecture for Automotive LiDAR Object Detection](https://arxiv.org/abs/2501.04969) | BEV LiDAR representation pre-training for downstream 3D detection | AAAI 2026 | [Code](https://github.com/HaoranZhuExplorer/adljepa) · [Project](https://ad-l-jepa.github.io/) |
-| **LM-JEPA** | [Object Detection and Scene Perception for Connected and Autonomous Vehicles Using LM-JEPA](https://www.mdpi.com/1424-8220/26/15/4894) | Latent predictive representation learning for resource-efficient connected-vehicle perception | Sensors 2026 | — |
 
 ---
 
@@ -421,6 +417,7 @@ Official project/industry releases here are not counted as scholarly publication
 
 # Recent Updates
 
+- **2026-11-02:** Pruned four lower-priority entries (HanoiWorld, Latent WM Survey, HEP-JEPA, LM-JEPA) after reviewing experimental strength, topical fit and overlapping coverage; kept the YAML catalog and generated tables synchronized.
 - **2026-11-02:** Added 16 curated papers spanning interactive games, embodied world-action models, clinical world models and general evaluation datasets; checked official paper, project and code links and explicitly marked pending releases.
 - **2026-11-02:** Added Google DeepMind Genie 4 as an industry research system (not counted as a paper). Reviewed 45 pre-2025 papers against public citation records; none could be confirmed below 10 citations, so no entries were removed.
 - **2026-10-26:** Added MDGen, Aurora, JEPA-DNA, Cell-JEPA and HEP-JEPA across molecular dynamics, Earth-system forecasting, genomics, single-cell biology and collider physics, distinguishing dynamic simulators from predictive representation models and verifying resource availability.

@@ -24,23 +24,6 @@ papers:
   - https://arxiv.org/abs/2610.25296
   - https://arxiv.org/html/2610.25296v1
   - https://github.com/Jize-W/Awesome-World-Model-Interpretability
-- model: Latent WM Survey
-  title: 'Latent World Models for Automated Driving: A Unified Taxonomy, Evaluation Framework, and Open Challenges'
-  paper_url: https://arxiv.org/abs/2603.09086
-  year: 2026
-  venue: arXiv
-  category: survey
-  focus: Latent-state taxonomy, evaluation, and deployment challenges
-  code_url: ''
-  project_url: ''
-  arxiv_id: '2603.09086'
-  published_date: '2026-03-10'
-  verified_date: '2026-10-19'
-  publication_status: preprint
-  added_date: '2026-09-30'
-  scope: BACKGROUND
-  sources:
-  - https://arxiv.org/abs/2603.09086
 - model: AV JEPA Survey
   title: 'Joint Embedding Predictive Architecture for Autonomous Vehicle Safety and Security: A Comprehensive Survey'
   paper_url: https://www.sciencedirect.com/science/article/pii/S1474034626002909
@@ -927,38 +910,6 @@ papers:
   sources:
   - https://arxiv.org/abs/2601.22032
   - https://github.com/linhanwang/Drive-JEPA
-- model: HanoiWorld
-  title: 'HanoiWorld: A Joint Embedding Predictive Architecture Based World Model for Autonomous Vehicle Controller'
-  paper_url: https://arxiv.org/abs/2601.01577
-  year: 2026
-  venue: arXiv
-  category: jepa
-  focus: JEPA-based recurrent world model for long-horizon autonomous-vehicle control
-  code_url: ''
-  project_url: ''
-  arxiv_id: '2601.01577'
-  published_date: '2026-01-04'
-  verified_date: '2026-10-19'
-  publication_status: preprint
-  added_date: '2026-09-30'
-  scope: CORE
-  sources:
-  - https://arxiv.org/abs/2601.01577
-- model: LM-JEPA
-  title: Object Detection and Scene Perception for Connected and Autonomous Vehicles Using LM-JEPA
-  paper_url: https://www.mdpi.com/1424-8220/26/15/4894
-  year: 2026
-  venue: Sensors
-  category: jepa
-  focus: Latent predictive representation learning for resource-efficient connected-vehicle perception
-  code_url: ''
-  project_url: ''
-  arxiv_id: ''
-  publication_status: published
-  added_date: '2026-09-30'
-  scope: CORE
-  sources:
-  - https://www.mdpi.com/1424-8220/26/15/4894
 - model: AD-L-JEPA
   title: Self-Supervised Representation Learning with Joint Embedding Predictive Architecture for Automotive LiDAR
     Object Detection
@@ -3355,28 +3306,6 @@ papers:
   sources:
   - https://arxiv.org/abs/2602.02093
   - https://arxiv.org/html/2602.02093v1
-- model: HEP-JEPA
-  title: 'HEP-JEPA: A foundation model for collider physics using joint embedding predictive architecture'
-  paper_url: https://arxiv.org/abs/2502.03933
-  arxiv_id: '2502.03933'
-  year: 2025
-  venue: ICLR World Models Workshop
-  category: physics
-  focus: 'Predictive representation learning: masked jet-constituent embeddings support jet classification, top tagging and quark/gluon discrimination'
-  code_url: ''
-  project_url: https://hep-jepa.github.io/
-  code_status: unreleased
-  publication_status: accepted
-  publication_url: https://hep-jepa.github.io/
-  published_date: '2025-02-06'
-  added_date: '2026-10-26'
-  verified_date: '2026-10-26'
-  scope: BACKGROUND
-  summary: 'A collider-physics predictive representation model, not a particle-collision dynamics simulator. The author project page lists acceptance at the ICLR 2025 World Models and Agentic AI for Scientific Discovery workshops and still announces code release as pending.'
-  sources:
-  - https://arxiv.org/abs/2502.03933
-  - https://hep-jepa.github.io/
-
 - model: 'Hy-Nomas'
   title: 'Hy-Nomas: Towards Free-form Interactive World Generation'
   paper_url: 'https://arxiv.org/abs/2610.36729'
