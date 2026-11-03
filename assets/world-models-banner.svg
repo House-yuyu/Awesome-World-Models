@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome World Models</title>
+  <desc id="desc">A research atlas of predictive worlds. A teal wireframe globe branches into possible future states on a deep navy background.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#101e30"/>
+      <stop offset="1" stop-color="#07131f"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#1d6e70" stop-opacity=".36"/>
+      <stop offset="1" stop-color="#0b1a29" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="trajectory" x2="1" y2="0">
+      <stop stop-color="#71eed2"/>
+      <stop offset="1" stop-color="#e8c981"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#a8d9d4" stroke-opacity=".045"/>
+    </pattern>
+    <clipPath id="globe">
+      <circle cx="1005" cy="183" r="142"/>
+    </clipPath>
+  </defs>
+  <rect width="1280" height="420" rx="20" fill="url(#background)"/>
+  <rect x="704" y="1" width="575" height="418" rx="20" fill="url(#grid)"/>
+  <ellipse cx="1000" cy="194" rx="310" ry="270" fill="url(#halo)"/>
+  <rect x="1" y="1" width="1278" height="418" rx="19" fill="none" stroke="#29404e"/>
+  <path d="M64 65h28" stroke="#71eed2" stroke-width="3"/>
+  <text x="105" y="71" fill="#9ab6c3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="3">A CROSS-DOMAIN RESEARCH ATLAS</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="76" letter-spacing="-2.5">
+    <text x="59" y="167" fill="#f1f7fb">Awesome</text>
+    <text x="59" y="246" fill="#71eed2">World Models</text>
+  </g>
+  <text x="64" y="292" fill="#b9cad5" font-family="Arial, Helvetica, sans-serif" font-size="22">Learn dynamics. Imagine what comes next.</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.8">
+    <rect x="64" y="336" width="110" height="33" rx="16.5" fill="#71eed2" fill-opacity=".1" stroke="#71eed2" stroke-opacity=".35"/>
+    <text x="83" y="357" fill="#97f3df">PREDICT</text>
+    <rect x="186" y="336" width="121" height="33" rx="16.5" fill="#71eed2" fill-opacity=".05" stroke="#71eed2" stroke-opacity=".2"/>
+    <text x="204" y="357" fill="#b9d4d6">SIMULATE</text>
+    <rect x="319" y="336" width="76" height="33" rx="16.5" fill="#e8c981" fill-opacity=".06" stroke="#e8c981" stroke-opacity=".3"/>
+    <text x="341" y="357" fill="#e8c981">ACT</text>
+  </g>
+  <g fill="none" stroke="#65d8c7">
+    <circle cx="1005" cy="183" r="142" stroke-opacity=".43"/>
+    <g clip-path="url(#globe)" stroke-opacity=".17">
+      <ellipse cx="1005" cy="183" rx="104" ry="142"/>
+      <ellipse cx="1005" cy="183" rx="53" ry="142"/>
+      <path d="M1005 41v284M863 183h284"/>
+      <ellipse cx="1005" cy="183" rx="142" ry="45"/>
+      <ellipse cx="1005" cy="183" rx="142" ry="97"/>
+      <path d="M876 124q129-43 258 0M876 242q129 43 258 0"/>
+    </g>
+    <ellipse cx="1005" cy="183" rx="194" ry="71" transform="rotate(-28 1005 183)" stroke-opacity=".2"/>
+    <path d="M786 245C860 267 905 185 965 186S1080 96 1209 108" stroke="url(#trajectory)" stroke-width="3"/>
+    <path d="M965 186C1042 180 1102 223 1190 228" stroke="#71eed2" stroke-opacity=".52" stroke-width="2" stroke-dasharray="5 7"/>
+    <path d="M965 186C1050 196 1086 274 1153 291" stroke="#71eed2" stroke-opacity=".24" stroke-width="2" stroke-dasharray="5 7"/>
+  </g>
+  <g fill="#101e30" stroke-width="2">
+    <circle cx="829" cy="244" r="6" stroke="#71eed2"/>
+    <circle cx="965" cy="186" r="8" stroke="#71eed2"/>
+    <circle cx="1081" cy="127" r="6" stroke="#c0dfab"/>
+    <circle cx="1190" cy="228" r="5" stroke="#55968e"/>
+    <circle cx="1153" cy="291" r="4" stroke="#396663"/>
+  </g>
+  <circle cx="1209" cy="108" r="7" fill="#e8c981"/>
+  <circle cx="965" cy="186" r="20" fill="none" stroke="#71eed2" stroke-opacity=".22"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2">
+    <text x="789" y="277" fill="#8faab9">OBSERVATION</text>
+    <text x="952" y="159" fill="#b8efdf">STATE</text>
+    <text x="1091" y="83" fill="#e8c981">POSSIBLE FUTURES</text>
+  </g>
+  <path d="M807 357h420" stroke="#29404e"/>
+  <text x="807" y="383" fill="#7a98a9" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1.3">PAPERS / CODE / BENCHMARKS</text>
+  <g fill="#71eed2"><circle cx="1206" cy="379" r="2"/><circle cx="1216" cy="379" r="2" opacity=".55"/><circle cx="1226" cy="379" r="2" opacity=".25"/></g>
+</svg>

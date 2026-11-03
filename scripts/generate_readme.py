@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Generate paper tables and badges from data/papers.yaml; use --check to verify.
+"""Generate the README catalog, navigation and badges; use --check to verify.
 
-Only the PAPERS_START/PAPERS_END block and the two metadata badges are generated.
+Only the marked paper/navigation blocks and metadata badges are generated.
 Unknown categories and duplicate papers fail validation instead of being omitted.
 """
 import argparse
 import re
 import sys
 from datetime import date
+from html import escape
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -19,6 +20,8 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent.parent
 START_MARKER = "<!-- PAPERS_START -->"
 END_MARKER = "<!-- PAPERS_END -->"
+NAV_START_MARKER = "<!-- NAVIGATION_START -->"
+NAV_END_MARKER = "<!-- NAVIGATION_END -->"
 CODE_STATUSES = {"released", "partial", "unreleased", "unverified", "repository-only", "data-only"}
 PUBLICATION_STATUSES = {"published", "accepted", "preprint"}
 SECTIONS = [
@@ -186,40 +189,127 @@ def build_table(papers, headers):
     return "\n".join(lines)
 
 
+def heading_anchor(heading):
+    return re.sub(r"[^\w\- ]", "", heading.lower()).replace(" ", "-")
+
+
+def paper_count(count):
+    return f"{count} {'paper' if count == 1 else 'papers'}"
+
+
+def child_sections(parent_category):
+    children, active = [], False
+    for section in SECTIONS:
+        category, _, level, _, _ = section
+        if category == parent_category:
+            active = True
+        elif active and (level == 1 or category in PARENTS):
+            break
+        if active:
+            children.append(section)
+    return children
+
+
+def collections(papers):
+    """Derive top-level collections from the same hierarchy as the paper tables."""
+    groups = []
+    for category, heading, level, description, _ in SECTIONS:
+        members = [paper for paper in papers if paper["category"] == category]
+        if category in PARENTS:
+            parent, intro = PARENTS[category]
+            groups.append({"heading": parent, "description": intro, "count": 0})
+        elif level == 1:
+            groups.append({"heading": heading, "description": description, "count": 0})
+        groups[-1]["count"] += len(members)
+    return [group for group in groups if group["count"]]
+
+
+def generate_navigation(catalog):
+    navigation = {
+        "Surveys & Perspectives": ("Surveys & Perspectives", "Find a starting point and the bigger picture."),
+        "Foundations & General World Models": ("Foundations", "Latent dynamics, imagination and predictive learning."),
+        "Interactive Worlds & Games": ("Interactive Worlds & Games", "Playable environments and controllable generation."),
+        "Robotics & Embodied World Models": ("Robotics & Embodied AI", "Robot imagination, world-action models and policies."),
+        "Medical & Biological World Models": ("Medicine & Biology", "Clinical trajectories, cells and molecular dynamics."),
+        "Social & Multi-Agent World Models": ("Social & Multi-Agent", "Agent interactions and social simulation."),
+        "Physics, Weather & Scientific World Models": ("Physics & Weather", "Physical processes, weather and scientific discovery."),
+        "Remote Sensing & Earth Observation": ("Remote Sensing & Earth Observation", "Satellite futures, vegetation and spatial extrapolation."),
+        "Video & Spatial World Models": ("Video & Spatial Worlds", "Visual prediction, geometry and spatial memory."),
+        "General World-Model Benchmarks": ("Benchmarks & Evaluation", "Action fidelity, physical consistency and geometry."),
+        "Autonomous Driving World Models": ("Autonomous Driving", "Generation, planning, world-action, JEPA and VLA."),
+    }
+    groups = collections(catalog["papers"])
+    cards = []
+    for group in groups:
+        heading = group["heading"]
+        label, description = navigation[heading]
+        cards.append(
+            f'<a href="#{heading_anchor(heading)}"><strong>{escape(label)}</strong></a>'
+            f'<br><sub>{paper_count(group["count"])} · {escape(description)}</sub>'
+        )
+    cards.append('<a href="#datasets--toolkits"><strong>Datasets &amp; Toolkits</strong></a>'
+                 '<br><sub>Training data, evaluation suites and research systems.</sub>')
+    lines = [NAV_START_MARKER, "", '<table width="100%">']
+    for i in range(0, len(cards), 2):
+        lines.append("  <tr>")
+        for card in cards[i:i + 2]:
+            lines.append(f'    <td width="50%" valign="top">{card}</td>')
+        lines.append("  </tr>")
+    lines.extend(["</table>", "", NAV_END_MARKER])
+    return "\n".join(lines)
+
+
 def generate_papers_section(papers):
     lines = [START_MARKER, ""]
     emitted = 0
     for category, heading, level, description, headers in SECTIONS:
         group = [p for p in papers if p["category"] == category]
-        if not group:
-            continue
         # Stable sorting retains YAML order when year and first-posted date tie.
         group.sort(key=lambda p: (p["year"], str(p.get("published_date", ""))), reverse=True)
         if category in PARENTS:
             parent, intro = PARENTS[category]
-            lines.extend([f"# {parent}", "", intro, ""])
-        lines.extend([f"{'#' * level} {heading}", "", description, "",
-                      build_table(group, headers), "", "---", ""])
+            children = [(h, heading_anchor(h)) for c, h, _, _, _ in child_sections(category)
+                        if any(p["category"] == c for p in papers)]
+            if children:
+                lines.extend([f"## {parent}", "", intro, "",
+                              " · ".join(f"[{h.split(': ', 1)[-1]}](#{anchor})"
+                                         for h, anchor in children), ""])
+        if not group:
+            continue
+        lines.extend([f"{'#' * (level + 1)} {heading}", "",
+                      f"**{paper_count(len(group))}** · {description}", "",
+                      build_table(group, headers), "",
+                      '<sub><a href="#explore">↑ Back to collections</a></sub>', ""])
         emitted += len(group)
     if emitted != len(papers):
         raise ValueError("Not all catalog papers were rendered")
-    lines = lines[:-2]
     lines.extend([END_MARKER, ""])
     return "\n".join(lines)
 
 
-def render_readme(content, catalog):
-    starts = list(re.finditer(rf"(?m)^{re.escape(START_MARKER)}$", content))
-    ends = list(re.finditer(rf"(?m)^{re.escape(END_MARKER)}$", content))
+def replace_block(content, start, end, replacement):
+    starts = list(re.finditer(rf"(?m)^{re.escape(start)}$", content))
+    ends = list(re.finditer(rf"(?m)^{re.escape(end)}$", content))
     if len(starts) != 1 or len(ends) != 1 or starts[0].end() >= ends[0].start():
-        raise ValueError("README must contain exactly one pair of paper markers")
+        raise ValueError(f"README must contain exactly one ordered pair of {start}/{end}")
     prefix = content[:starts[0].start()]
     suffix = content[ends[0].end():]
-    result = prefix + generate_papers_section(catalog["papers"]) + "\n" + suffix.lstrip("\n")
+    return prefix + replacement.rstrip("\n") + "\n\n" + suffix.lstrip("\n")
+
+
+def render_readme(content, catalog):
+    result = replace_block(content, START_MARKER, END_MARKER,
+                           generate_papers_section(catalog["papers"]))
+    result = replace_block(result, NAV_START_MARKER, NAV_END_MARKER,
+                           generate_navigation(catalog))
     result, count = re.subn(r"https://img\.shields\.io/badge/papers-\d+-blue",
                            f"https://img.shields.io/badge/papers-{len(catalog['papers'])}-blue", result)
     if count != 1:
         raise ValueError("README must contain exactly one papers badge")
+    result, count = re.subn(r"https://img\.shields\.io/badge/collections-\d+-teal",
+                           f"https://img.shields.io/badge/collections-{len(collections(catalog['papers']))}-teal", result)
+    if count != 1:
+        raise ValueError("README must contain exactly one collections badge")
     updated = str(catalog["updated_date"]).replace("-", "--")
     result, count = re.subn(r"https://img\.shields\.io/badge/last%20updated-[\d-]+-brightgreen",
                            f"https://img.shields.io/badge/last%20updated-{updated}-brightgreen", result)
