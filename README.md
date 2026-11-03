@@ -1,12 +1,12 @@
 # Awesome World Models 🌍
 
 <p align="center">
-  <img src="https://img.shields.io/badge/papers-188-blue" alt="Papers">
-  <img src="https://img.shields.io/badge/last%20updated-2026--11--02-brightgreen" alt="Last Updated">
+  <img src="https://img.shields.io/badge/papers-195-blue" alt="Papers">
+  <img src="https://img.shields.io/badge/last%20updated-2026--11--03-brightgreen" alt="Last Updated">
   <img src="https://img.shields.io/badge/PRs-welcome-orange" alt="PRs Welcome">
 </p>
 
-A curated **cross-domain bibliography of world models** across **interactive environments and games, robotics and embodied AI, healthcare and biology, social/multi-agent systems, physics and weather, general video/spatial worlds, and autonomous driving**.
+A curated **cross-domain bibliography of world models** across **interactive environments and games, robotics and embodied AI, healthcare and biology, social/multi-agent systems, physics and weather, remote sensing and Earth observation, general video/spatial worlds, and autonomous driving**.
 
 > **What happens next, and what changes after an action or intervention?**
 
@@ -29,6 +29,10 @@ Papers have one primary category. Preprints are labeled arXiv; **Code**, **Repos
 - [Medical & Biological World Models](#medical--biological-world-models)
 - [Social & Multi-Agent World Models](#social--multi-agent-world-models)
 - [Physics, Weather & Scientific World Models](#physics-weather--scientific-world-models)
+- [Remote Sensing & Earth Observation](#remote-sensing--earth-observation)
+  - [Future forecasting and scenario simulation](#eo-future-forecasting--scenario-simulation)
+  - [Spatial extrapolation](#eo-spatial-extrapolation)
+  - [Related predictive representations](#eo-predictive-representations-related)
 - [Video & Spatial World Models](#video--spatial-world-models)
 - [General World-Model Benchmarks](#general-world-model-benchmarks)
 - [Autonomous Driving World Models](#autonomous-driving-world-models)
@@ -184,6 +188,44 @@ Physical and Earth-system dynamics, with related scientific predictive represent
 | **FourCastNet** | [FourCastNet: A Global Data-driven High-resolution Weather Model using Adaptive Fourier Neural Operators](https://arxiv.org/abs/2202.11214) | Global atmospheric forecasting with Fourier operators | arXiv 2022 | [Code](https://github.com/NVlabs/FourCastNet) |
 | **MeshGraphNets** | [Learning Mesh-Based Simulation with Graph Networks](https://arxiv.org/abs/2010.03409) | Fluid and mesh state transitions | ICLR 2021 | — |
 | **Graph Physics Simulator** | [Learning to Simulate Complex Physics with Graph Networks](https://arxiv.org/abs/2002.09405) | Graph-based dynamics for interacting particles | ICML 2020 | — |
+
+---
+
+# Remote Sensing & Earth Observation
+
+Forecasting, directional spatial extrapolation and related predictive representations for Earth observation. Resource status is based on verification on 2026-11-03: Not verified means no accessible official implementation was confirmed; the RS-WorldModel repository linked in its paper returned 404.
+
+## EO: Future Forecasting & Scenario Simulation
+
+Future multispectral scenes, vegetation states and cloud-dependent observability, conditioned on weather or language.
+
+| Model | Paper | Key Idea | Venue | Resources |
+| --- | --- | --- | --- | --- |
+| **Cloud-aware LeWorldModel** | [From Surface Forecasting to Observability Forecasting: A Latent World Model for Cloud-Aware EO Monitoring](https://arxiv.org/abs/2607.13651) | JEPA latent dynamics predict cloud-free observation availability and recovery time from multispectral imagery and weather | arXiv 2026 | Not verified |
+| **EO-WM** | [EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting](https://arxiv.org/abs/2606.27277) | Weather-conditioned multispectral forecasting separates climatology, anomalies and cumulative stress; evaluates vegetation responses | NeurIPS 2026 (accepted) | [Code](https://github.com/hku-sail/EO-WM) |
+| **VegSim** | [VegSim: A Geospatial World Model for Scenario-Conditioned Vegetation Simulation](https://arxiv.org/abs/2606.21961) | Recurrent latent vegetation dynamics produce NDVI quantiles under controllable future temperature and precipitation scenarios | ACM SIGSPATIAL (Application Short) 2026 (accepted) | [Code](https://github.com/arco-group/vegsim) |
+| **RS-WorldModel** | [RS-WorldModel: a Unified Model for Remote Sensing Understanding and Future Sense Forecasting](https://arxiv.org/abs/2603.14941) | Joint change understanding and text-guided future scene generation with geographic conditioning and verifiable reinforcement optimization | arXiv 2026 | Not verified |
+
+---
+
+## EO: Spatial Extrapolation
+
+Directional continuation into unobserved neighboring image tiles; spatial rather than temporal transitions.
+
+| Model | Paper | Key Idea | Venue | Resources |
+| --- | --- | --- | --- | --- |
+| **RemoteBAGEL / RSWISE** | [Remote Sensing-Oriented World Model](https://arxiv.org/abs/2509.17808) | Direction-conditioned adjacent-tile generation with RSWISE evaluation; models spatial continuation rather than temporal dynamics | arXiv 2025 | Not verified |
+
+---
+
+## EO: Predictive Representations (Related)
+
+Related JEPA and multimodal generative representations for downstream perception, without explicit future-state simulation.
+
+| Model | Paper | Key Idea | Venue | Resources |
+| --- | --- | --- | --- | --- |
+| **FusDreamer** | [FusDreamer: Label-Efficient Remote Sensing World Model for Multimodal Data Classification](https://doi.org/10.1109/TGRS.2025.3554862) | Related generative representation: hyperspectral, LiDAR and text fusion with diffusion and alignment for label-efficient classification | IEEE TGRS 2025 | [Code](https://github.com/Cimy-wang/FusDreamer) |
+| **AnySat** | [AnySat: One Earth Observation Model for Many Resolutions, Scales, and Modalities](https://openaccess.thecvf.com/content/CVPR2025/html/Astruc_AnySat_One_Earth_Observation_Model_for_Many_Resolutions_Scales_and_CVPR_2025_paper.html) | Related predictive representation: scale-adaptive JEPA unifies heterogeneous sensors, resolutions and modalities for downstream perception | CVPR 2025 | [Code](https://github.com/gastruc/AnySat) · [Project](https://gastruc.github.io/anysat) |
 
 ---
 
@@ -417,6 +459,7 @@ Official project/industry releases here are not counted as scholarly publication
 
 # Recent Updates
 
+- **2026-11-03:** Added seven remote-sensing and Earth-observation papers: EO-WM, RS-WorldModel, VegSim, Cloud-aware LeWorldModel, RemoteBAGEL/RSWISE, AnySat and FusDreamer. Separated future forecasting, spatial extrapolation and related predictive representations, and distinguished verified implementations from unverified code availability.
 - **2026-11-02:** Pruned four lower-priority entries (HanoiWorld, Latent WM Survey, HEP-JEPA, LM-JEPA) after reviewing experimental strength, topical fit and overlapping coverage; kept the YAML catalog and generated tables synchronized.
 - **2026-11-02:** Added 16 curated papers spanning interactive games, embodied world-action models, clinical world models and general evaluation datasets; checked official paper, project and code links and explicitly marked pending releases.
 - **2026-11-02:** Added Google DeepMind Genie 4 as an industry research system (not counted as a paper). Reviewed 45 pre-2025 papers against public citation records; none could be confirmed below 10 citations, so no entries were removed.
@@ -445,9 +488,9 @@ python scripts/generate_readme.py --check
 
 Use the parsed `papers` list length (reported by `--check`) for paper counts. Counting `- model:` lines can miss records because YAML mapping keys may appear in any order. For consistent editing, keep `model` as the first field of each paper entry.
 
-Valid categories: `survey`, `foundations`, `interactive`, `robotics`, `medical`, `social`, `physics`, `video-spatial`, `bench-general`, and driving-specific `generative`, `latent`, `world-action`, `jepa`, `vla-world`, `vla-general`, `benchmark`.
+Valid categories: `survey`, `foundations`, `interactive`, `robotics`, `medical`, `social`, `physics`, `eo-forecast`, `eo-spatial`, `eo-representation`, `video-spatial`, `bench-general`, and driving-specific `generative`, `latent`, `world-action`, `jepa`, `vla-world`, `vla-general`, `benchmark`.
 
-Supply a paper, publication status, specific predictive mechanism and verified code links. Code states include `released`, `partial`, `repository-only`, `unreleased` and `data-only`.
+Supply a paper, publication status, specific predictive mechanism and verified code links. Code states include `released`, `partial`, `repository-only`, `unreleased`, `unverified` and `data-only`. Use `unverified` when no accessible official implementation has been confirmed; this does not establish that the authors have never released code.
 
 # Repository Structure
 

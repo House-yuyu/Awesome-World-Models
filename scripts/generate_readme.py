@@ -19,7 +19,7 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent.parent
 START_MARKER = "<!-- PAPERS_START -->"
 END_MARKER = "<!-- PAPERS_END -->"
-CODE_STATUSES = {"released", "partial", "unreleased", "repository-only", "data-only"}
+CODE_STATUSES = {"released", "partial", "unreleased", "unverified", "repository-only", "data-only"}
 PUBLICATION_STATUSES = {"published", "accepted", "preprint"}
 SECTIONS = [
     ("survey", "Surveys & Perspectives", 1,
@@ -42,6 +42,15 @@ SECTIONS = [
      ["Model","Paper","Key Idea","Venue","Resources"]),
     ("physics", "Physics, Weather & Scientific World Models", 1,
      "Physical and Earth-system dynamics, with related scientific predictive representation models.",
+     ["Model","Paper","Key Idea","Venue","Resources"]),
+    ("eo-forecast", "EO: Future Forecasting & Scenario Simulation", 2,
+     "Future multispectral scenes, vegetation states and cloud-dependent observability, conditioned on weather or language.",
+     ["Model","Paper","Key Idea","Venue","Resources"]),
+    ("eo-spatial", "EO: Spatial Extrapolation", 2,
+     "Directional continuation into unobserved neighboring image tiles; spatial rather than temporal transitions.",
+     ["Model","Paper","Key Idea","Venue","Resources"]),
+    ("eo-representation", "EO: Predictive Representations (Related)", 2,
+     "Related JEPA and multimodal generative representations for downstream perception, without explicit future-state simulation.",
      ["Model","Paper","Key Idea","Venue","Resources"]),
     ("video-spatial", "Video & Spatial World Models", 1,
      "Predictive and controllable representations of visual worlds.",
@@ -73,6 +82,7 @@ SECTIONS = [
 ]
 CATEGORIES = {section[0] for section in SECTIONS}
 PARENTS = {
+    "eo-forecast": ("Remote Sensing & Earth Observation", "Forecasting, directional spatial extrapolation and related predictive representations for Earth observation. Resource status is based on verification on 2026-11-03: Not verified means no accessible official implementation was confirmed; the RS-WorldModel repository linked in its paper returned 404."),
     "generative": ("Autonomous Driving World Models", "Autonomous driving is one application of world models, including generation, latent prediction, world-action, JEPA, VLA and benchmarks."),
 }
 
@@ -156,13 +166,15 @@ def resource_cell(paper):
 
     status = paper.get("code_status", "released")
     label = ("Data" if status == "data-only" else
-             "Repository" if status in {"unreleased", "repository-only"} else "Code")
-    note = " (code pending)" if status == "unreleased" else " (partial)" if status == "partial" else ""
+             "Repository" if status in {"unreleased", "unverified", "repository-only"} else "Code")
+    note = (" (code pending)" if status == "unreleased" else
+            " (availability unverified)" if status == "unverified" else
+            " (partial)" if status == "partial" else "")
     add(label, paper.get("code_url"), note)
     add("Project", paper.get("project_url"))
     for resource in paper.get("resources", []):
         add(resource["label"], resource["url"])
-    return " · ".join(links) or "—"
+    return " · ".join(links) or ("Not verified" if status == "unverified" else "—")
 
 
 def build_table(papers, headers):
