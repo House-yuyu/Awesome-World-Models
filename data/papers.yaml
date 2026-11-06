@@ -7,7 +7,7 @@ papers:
   year: 2026
   venue: arXiv
   category: survey
-  focus: 'Perspective research agenda for JEPA latent worlds: Ground–Structure–Verify–Act covers factor grounding, relations and dynamics, causal verification, and targeted intervention; no new empirically validated architecture'
+  focus: 'JEPA latent-world grounding and causal verification'
   code_url: ''
   project_url: ''
   resources:
@@ -30,7 +30,7 @@ papers:
   year: 2026
   venue: Advanced Engineering Informatics
   category: survey
-  focus: JEPA for autonomous-vehicle perception, safety, security, and deployment
+  focus: 'Survey of JEPA for safer autonomous driving'
   code_url: ''
   project_url: ''
   arxiv_id: ''
@@ -67,7 +67,7 @@ papers:
   year: 2025
   venue: ICCV Workshops
   category: survey
-  focus: Driving VLA architectures, datasets, evaluation, and research trends
+  focus: 'Survey of driving VLA models, data and evaluation'
   code_url: ''
   project_url: ''
   resources:
@@ -87,7 +87,7 @@ papers:
   year: 2025
   venue: arXiv
   category: survey
-  focus: Generation, planning, and prediction–planning interaction
+  focus: 'Survey of driving generation and planning models'
   code_url: ''
   project_url: ''
   resources:
@@ -111,7 +111,7 @@ papers:
   project_url: https://helloworld-4d.github.io/
   scope: CORE
   category: generative
-  focus: Controllable multi-camera RGB + LiDAR generation for sequential simulation
+  focus: 'Controllable multi-camera RGB and LiDAR generation'
   tags:
   - Generative World Model
   - Simulation
@@ -133,7 +133,7 @@ papers:
   year: 2025
   venue: ICCV
   category: generative
-  focus: Autoregressive diffusion for long-horizon video generation and planning
+  focus: 'Autoregressive diffusion for long driving rollouts'
   code_url: https://github.com/Kevin-thu/Epona
   project_url: ''
   arxiv_id: '2506.24113'
@@ -151,7 +151,7 @@ papers:
   year: 2025
   venue: ICCV
   category: generative
-  focus: Unified BEV-based scene understanding and future generation
+  focus: 'BEV-based scene understanding and future generation'
   code_url: https://github.com/LMD0311/HERMES
   project_url: ''
   arxiv_id: '2501.14729'
@@ -169,7 +169,7 @@ papers:
   year: 2025
   venue: ICCV
   category: generative
-  focus: Large-scale controllable 3D world generation grounded by video models
+  focus: 'Controllable 3D worlds grounded by video models'
   code_url: https://github.com/nv-tlabs/InfiniCube
   project_url: ''
   arxiv_id: '2412.03934'
@@ -225,7 +225,7 @@ papers:
   year: 2025
   venue: ICRA
   category: generative
-  focus: 4D LiDAR world generation and physically grounded sensor simulation
+  focus: '4D LiDAR generation with physical sensor simulation'
   code_url: https://github.com/vzyrianov/LidarDM
   project_url: https://zyrianov.org/lidardm/
   arxiv_id: '2404.02903'
@@ -244,7 +244,7 @@ papers:
   year: 2024
   venue: CVPR
   category: generative
-  focus: Large-scale driving video prediction with action-conditioned adaptation
+  focus: 'Large-scale action-conditioned driving video prediction'
   code_url: https://github.com/OpenDriveLab/DriveAGI
   project_url: ''
   arxiv_id: '2403.09630'
@@ -263,7 +263,7 @@ papers:
   year: 2024
   venue: CVPR
   category: generative
-  focus: Multi-view visual forecasting connected to trajectory planning
+  focus: 'Multi-view future video supports trajectory planning'
   code_url: https://github.com/BraveGroup/Drive-WM
   project_url: ''
   arxiv_id: '2311.17918'
@@ -281,7 +281,7 @@ papers:
   year: 2024
   venue: ECCV
   category: generative
-  focus: Future 4D world volume + multi-camera diffusion generation
+  focus: '4D world volumes for multi-camera diffusion'
   code_url: https://github.com/fudan-zvg/WoVoGen
   project_url: ''
   arxiv_id: '2312.02934'
@@ -317,7 +317,7 @@ papers:
   year: 2025
   venue: IEEE IV
   category: generative
-  focus: Camera + LiDAR world modeling with geometric latent representations
+  focus: 'Camera–LiDAR dynamics in geometric latent states'
   code_url: https://github.com/daniel-bogdoll/MUVO
   project_url: ''
   arxiv_id: '2311.11762'
@@ -335,7 +335,7 @@ papers:
   year: 2024
   venue: CVPR
   category: generative
-  focus: Controllable temporally and cross-view consistent panoramic generation
+  focus: 'Cross-view consistent panoramic driving video'
   code_url: https://github.com/wenyuqing/panacea
   project_url: https://panacea-ad.github.io/
   arxiv_id: '2311.16813'
@@ -354,7 +354,7 @@ papers:
   year: 2023
   venue: arXiv
   category: generative
-  focus: Interleaved vision-action modeling with MLLM and diffusion
+  focus: 'Interleaved vision–action modeling with diffusion'
   code_url: ''
   project_url: ''
   arxiv_id: '2311.13549'
@@ -388,7 +388,7 @@ papers:
   year: 2024
   venue: ECCV
   category: generative
-  focus: Real-world diffusion world model with structured traffic control
+  focus: 'Traffic-controlled real-world diffusion simulation'
   code_url: https://github.com/JeffWang987/DriveDreamer
   project_url: https://drivedreamer.github.io/
   arxiv_id: '2309.09777'
@@ -407,7 +407,7 @@ papers:
   year: 2023
   venue: arXiv
   category: generative
-  focus: Autoregressive video, text, and action token world modeling
+  focus: 'Joint video, text and action token prediction'
   code_url: ''
   project_url: ''
   resources:
@@ -427,7 +427,7 @@ papers:
   year: 2026
   venue: CVPR
   category: latent
-  focus: Video-world latents are directly injected into a diffusion planner
+  focus: 'World latents injected into a diffusion planner'
   code_url: https://github.com/xiaomi-research/drivelaw
   project_url: ''
   arxiv_id: '2512.23421'
@@ -445,7 +445,7 @@ papers:
   year: 2026
   venue: arXiv
   category: latent
-  focus: Interaction-graph latent world states for long-horizon planning
+  focus: 'Traffic-graph latent states for long-horizon planning'
   code_url: ''
   project_url: ''
   arxiv_id: '2606.16274'
@@ -482,7 +482,7 @@ papers:
   year: 2026
   venue: arXiv
   category: latent
-  focus: Future-aware latent conditioning for diffusion trajectory planning
+  focus: 'Future latents condition trajectory diffusion planning'
   code_url: ''
   project_url: ''
   arxiv_id: '2605.09701'
@@ -499,7 +499,7 @@ papers:
   year: 2025
   venue: ICCV
   category: latent
-  focus: Intention-aware latent futures for trajectory generation and selection
+  focus: 'Intention-aware futures for trajectory selection'
   code_url: https://github.com/ucaszyp/World4Drive
   project_url: ''
   arxiv_id: '2507.00603'
@@ -518,7 +518,7 @@ papers:
   year: 2025
   venue: NeurIPS
   category: latent
-  focus: Aligns privileged and raw-sensor world models for model-based RL
+  focus: 'Aligns privileged and raw-sensor world models for RL'
   code_url: https://github.com/Thinklab-SJTU/Raw2Drive
   project_url: ''
   arxiv_id: '2505.16394'
@@ -537,7 +537,7 @@ papers:
   year: 2024
   venue: CVPR
   category: latent
-  focus: Spatiotemporal latent dynamics for multi-task 4D pre-training
+  focus: 'Latent dynamics for multi-task 4D pretraining'
   code_url: ''
   project_url: ''
   arxiv_id: '2405.04390'
@@ -556,7 +556,7 @@ papers:
   year: 2024
   venue: CVPR
   category: latent
-  focus: Future point-cloud forecasting as self-supervised driving pre-training
+  focus: 'Future point-cloud prediction for driving pretraining'
   code_url: https://github.com/OpenDriveLab/ViDAR
   project_url: ''
   arxiv_id: '2312.17655'
@@ -575,7 +575,7 @@ papers:
   year: 2024
   venue: ECCV
   category: latent
-  focus: Latent imagination for model-based reinforcement learning
+  focus: 'Latent imagination for driving reinforcement learning'
   code_url: ''
   project_url: ''
   arxiv_id: '2402.16720'
@@ -594,7 +594,7 @@ papers:
   year: 2023
   venue: arXiv
   category: latent
-  focus: Label-free 4D occupancy prediction for transferable driving pre-training
+  focus: 'Label-free 4D occupancy pretraining for driving'
   code_url: ''
   project_url: ''
   arxiv_id: '2308.07234'
@@ -613,7 +613,7 @@ papers:
   year: 2023
   venue: ICRA
   category: latent
-  focus: Multi-agent world model for configurable traffic simulation and prediction
+  focus: 'Multi-agent traffic simulation and prediction'
   code_url: https://github.com/zhejz/TrafficBots
   project_url: ''
   arxiv_id: '2303.04116'
@@ -631,7 +631,7 @@ papers:
   year: 2022
   venue: NeurIPS
   category: latent
-  focus: Joint latent world model and policy learned from offline driving video
+  focus: 'Joint latent dynamics and policy from driving video'
   code_url: https://github.com/wayveai/mile
   project_url: ''
   arxiv_id: ''
@@ -651,7 +651,7 @@ papers:
   project_url: ''
   scope: CORE
   category: world-action
-  focus: Transfers world-model semantics into compact trajectory latents
+  focus: 'World-model semantics distilled to trajectory latents'
   tags:
   - World Model Alignment
   - Latent Trajectory
@@ -677,7 +677,7 @@ papers:
   project_url: ''
   scope: CORE
   category: world-action
-  focus: Multiple paired scene-action futures with joint diffusion modeling
+  focus: 'Joint diffusion of paired scene and action futures'
   tags:
   - World-Action Model
   - Multi-mode
@@ -700,7 +700,7 @@ papers:
   year: 2026
   venue: arXiv
   category: world-action
-  focus: Predicts future scene geometry and conditions ego actions on geometric dynamics
+  focus: 'Future geometry conditions ego-action planning'
   code_url: ''
   project_url: ''
   arxiv_id: '2608.23486'
@@ -717,7 +717,7 @@ papers:
   year: 2026
   venue: arXiv
   category: world-action
-  focus: Action-conditioned future latents optimized for trajectory scoring
+  focus: 'Action-conditioned latents for trajectory scoring'
   code_url: ''
   project_url: ''
   arxiv_id: '2608.19085'
@@ -734,7 +734,7 @@ papers:
   year: 2026
   venue: arXiv
   category: world-action
-  focus: Uses future-video prediction as training-only supervision for an efficient action expert
+  focus: 'Training-only video prediction supervises action experts'
   code_url: https://github.com/H-EmbodVis/SimWAM
   project_url: ''
   arxiv_id: '2608.07468'
@@ -752,7 +752,7 @@ papers:
   year: 2026
   venue: arXiv
   category: world-action
-  focus: Adapts a video diffusion transformer into an autoregressive video-action policy
+  focus: 'Video diffusion transformer as video-action policy'
   code_url: https://github.com/chenshi3/DriveWAM
   project_url: https://chenshi3.github.io/drivewam.github.io/
   arxiv_id: '2605.28544'
@@ -771,7 +771,7 @@ papers:
   year: 2026
   venue: arXiv
   category: world-action
-  focus: Compact spatial world tokens + causal latent dynamics for action planning
+  focus: 'Spatial world tokens and causal latents guide planning'
   code_url: ''
   project_url: ''
   arxiv_id: '2603.24581'
@@ -788,7 +788,7 @@ papers:
   year: 2026
   venue: arXiv
   category: jepa
-  focus: Action-conditioned JEPA world model for efficient goal-conditioned zero-shot planning and downstream IL
+  focus: 'Action-conditioned JEPA for goal-based driving plans'
   code_url: https://github.com/HaoranZhuExplorer/AD-E2E-JEPA
   project_url: ''
   arxiv_id: '2609.34085'
@@ -811,7 +811,7 @@ papers:
   project_url: ''
   scope: CORE
   category: jepa
-  focus: JEPA-style multi-horizon latent futures directly condition a DiT planner
+  focus: 'Multi-horizon JEPA latents condition DiT planning'
   tags:
   - Latent World Model
   - Planning
@@ -837,7 +837,7 @@ papers:
   project_url: https://wa-jepa.github.io/
   scope: CORE
   category: jepa
-  focus: Future-masked V-JEPA + flow matching + joint future-scene / action prediction
+  focus: 'Masked V-JEPA and flow matching predict scenes/actions'
   tags:
   - WA-JEPA
   - V-JEPA
@@ -866,7 +866,7 @@ papers:
   project_url: ''
   scope: CORE
   category: jepa
-  focus: Predicts planning-relevant continuous future-intent embeddings instead of dense future scenes
+  focus: 'Future-intent latent prediction for driving planning'
   tags:
   - JEPA
   - Latent World Model
@@ -893,7 +893,7 @@ papers:
   project_url: ''
   scope: CORE
   category: jepa
-  focus: V-JEPA video pre-training aligned with proposal-based end-to-end planning
+  focus: 'V-JEPA pretraining for proposal-based driving plans'
   tags:
   - V-JEPA
   - Video Prediction
@@ -921,7 +921,7 @@ papers:
   project_url: https://ad-l-jepa.github.io/
   scope: RELATED
   category: jepa
-  focus: BEV LiDAR representation pre-training for downstream 3D detection
+  focus: 'LiDAR BEV JEPA pretraining for 3D detection'
   tags:
   - JEPA
   - LiDAR
@@ -946,7 +946,7 @@ papers:
   year: 2026
   venue: arXiv
   category: vla-world
-  focus: Combines pixel-level grounding with latent future prediction before action generation
+  focus: 'Pixel grounding and latent futures guide VLA actions'
   code_url: ''
   project_url: ''
   arxiv_id: '2607.20988'
@@ -963,7 +963,7 @@ papers:
   year: 2026
   venue: arXiv
   category: vla-world
-  focus: Semantic world cognition + generative joint multi-agent future modeling + Game-CoT
+  focus: 'Semantic world cognition and multi-agent Game-CoT'
   code_url: ''
   project_url: ''
   arxiv_id: '2607.08375'
@@ -980,7 +980,7 @@ papers:
   year: 2026
   venue: arXiv
   category: vla-world
-  focus: Future-frame supervision shapes VLM hidden states for coarse-to-fine trajectory refinement
+  focus: 'Future-frame training refines VLM trajectories'
   code_url: https://github.com/yachyc/LWDrive
   project_url: ''
   arxiv_id: '2606.29879'
@@ -997,7 +997,7 @@ papers:
   year: 2026
   venue: arXiv
   category: vla-world
-  focus: Multi-expert world tokens for semantics, geometry, dynamics, and ego goals explicitly condition planning
+  focus: 'Semantic, geometric and dynamic tokens guide plans'
   code_url: https://github.com/AFARI-Research/CoWorld-VLA
   project_url: ''
   arxiv_id: '2605.10426'
@@ -1015,7 +1015,7 @@ papers:
   year: 2026
   venue: CVPR Findings
   category: vla-world
-  focus: Generates an action-guided future image, then reasons over the imagined future to refine the trajectory
+  focus: 'Imagined future images refine action trajectories'
   code_url: ''
   project_url: https://vlaworld.github.io/
   arxiv_id: '2604.09059'
@@ -1034,7 +1034,7 @@ papers:
   year: 2026
   venue: arXiv
   category: vla-world
-  focus: Compact latent CoT is jointly supervised by language reasoning and a visual future-world decoder
+  focus: 'Latent reasoning trained with language and future images'
   code_url: https://github.com/xiaomi-research/onevl
   project_url: ''
   arxiv_id: '2604.18486'
@@ -1052,7 +1052,7 @@ papers:
   year: 2026
   venue: ECCV
   category: vla-world
-  focus: Uses world-model uncertainty as an intrinsic reward for safe exploration
+  focus: 'World uncertainty rewards safe exploration'
   code_url: https://github.com/zihaosheng/ExploreVLA
   project_url: ''
   arxiv_id: '2604.02714'
@@ -1070,7 +1070,7 @@ papers:
   year: 2026
   venue: arXiv
   category: vla-world
-  focus: Alternates future-frame prediction and ego-action generation in one autoregressive sequence
+  focus: 'Interleaves future-frame and ego-action prediction'
   code_url: https://github.com/LogosRoboticsGroup/UniWorldVLA
   project_url: ''
   arxiv_id: '2603.27287'
@@ -1088,7 +1088,7 @@ papers:
   year: 2026
   venue: ICML
   category: vla-world
-  focus: Dynamics CoT compresses ego- and environment-centric future evolution into compact dynamics tokens
+  focus: 'Dynamics tokens summarize ego and environment futures'
   code_url: https://github.com/yaoyao-jpg/DynamicsVLA
   project_url: https://yaoyao-jpg.github.io/dynvla/
   arxiv_id: '2603.11041'
@@ -1107,7 +1107,7 @@ papers:
   year: 2026
   venue: ICML
   category: vla-world
-  focus: Shared latent world states support action-conditioned imagination and VLA planning
+  focus: 'Shared latent worlds support VLA imagination/planning'
   code_url: https://github.com/liulin815/DriveWorld-VLA
   project_url: ''
   arxiv_id: '2602.06521'
@@ -1127,7 +1127,7 @@ papers:
   year: 2026
   venue: ICLR
   category: vla-world
-  focus: Future-image world modeling supplies dense self-supervision for VLA scaling
+  focus: 'Future-image prediction supervises VLA training'
   code_url: https://github.com/BraveGroup/DriveVLA-W0
   project_url: ''
   arxiv_id: '2510.12796'
@@ -1145,7 +1145,7 @@ papers:
   year: 2026
   venue: ACM MM
   category: vla-world
-  focus: Failure-aware latent memory with structurally grounded retrieval and lightweight test-time adaptation
+  focus: 'Failure-aware latent memory adapts driving VLA plans'
   code_url: https://github.com/ZebinX/DriveVLA-M0
   project_url: ''
   arxiv_id: '2608.10413'
@@ -1161,7 +1161,7 @@ papers:
   year: 2025
   venue: NeurIPS
   category: vla-world
-  focus: VLA first acts as a world model to generate a visual future CoT, then plans from it
+  focus: 'Visual future reasoning before VLA planning'
   code_url: https://github.com/MIV-XJTU/FSDrive
   project_url: https://miv-xjtu.github.io/FSDrive.github.io/
   arxiv_id: '2505.17685'
@@ -1180,7 +1180,7 @@ papers:
   year: 2026
   venue: arXiv
   category: vla-general
-  focus: Unified streaming language + continuous-action generation with memory
+  focus: 'Streaming language and actions with memory'
   code_url: ''
   project_url: https://mind-omni.github.io/projects/u1/index.html
   arxiv_id: '2605.12624'
@@ -1198,7 +1198,7 @@ papers:
   year: 2026
   venue: arXiv
   category: vla-general
-  focus: One causal VLM decoder for language, perception queries, and trajectory queries
+  focus: 'Causal VLM decoder for language, vision and planning'
   code_url: https://github.com/Z1zyw/OneDrive
   project_url: ''
   arxiv_id: '2604.17915'
@@ -1216,7 +1216,7 @@ papers:
   year: 2026
   venue: arXiv
   category: vla-general
-  focus: Mixture-of-Transformers experts for semantic reasoning, spatial perception, and planning
+  focus: 'Transformer experts for reasoning, vision and planning'
   code_url: https://github.com/xiaomi-research/unidrivevla
   project_url: ''
   arxiv_id: '2604.02190'
@@ -1234,7 +1234,7 @@ papers:
   year: 2026
   venue: AAAI
   category: vla-general
-  focus: 2D/3D vision-language alignment with agent–environment–ego interaction modeling
+  focus: '2D/3D language alignment for interactive driving'
   code_url: https://github.com/DriveVLA/OpenDriveVLA
   project_url: https://drivevla.github.io/
   arxiv_id: '2503.23463'
@@ -1253,7 +1253,7 @@ papers:
   year: 2025
   venue: arXiv
   category: vla-general
-  focus: Parallel continuous action generation from reasoning-enhanced VLM features
+  focus: 'Reasoning-enhanced VLM with parallel action output'
   code_url: ''
   project_url: ''
   arxiv_id: '2511.19912'
@@ -1271,7 +1271,7 @@ papers:
   year: 2025
   venue: NeurIPS
   category: vla-general
-  focus: Adaptive fast/slow CoT reasoning with physical action tokens and GRPO fine-tuning
+  focus: 'Adaptive CoT and GRPO for driving action generation'
   code_url: https://github.com/ucla-mobility/AutoVLA
   project_url: https://autovla.github.io/
   arxiv_id: '2506.13757'
@@ -1290,7 +1290,7 @@ papers:
   year: 2025
   venue: NeurIPS
   category: vla-general
-  focus: Large open corner-case VLA dataset, benchmark, weights, and planning-oriented QA
+  focus: 'Open driving VLA data, benchmarks and weights'
   code_url: https://github.com/ahydchh/Impromptu-VLA
   project_url: https://ziming-liu.github.io/projects/impromptu-vla/index.html
   arxiv_id: '2505.23757'
@@ -1313,7 +1313,7 @@ papers:
   project_url: https://xpeng-robotics.github.io/xpace/
   scope: BACKGROUND
   category: robotics
-  focus: Shared video backbone jointly predicts robot actions and future video
+  focus: 'Shared video backbone predicts robot actions and futures'
   tags:
   - World-Action Model
   - Robotics
@@ -1340,7 +1340,7 @@ papers:
   project_url: https://xiangchenyin.github.io/Holo-World/
   scope: BACKGROUND
   category: video-spatial
-  focus: Unified camera, object, and weather control from a single source image
+  focus: 'Joint camera, object and weather control from one image'
   tags:
   - Video World Model
   - Controllable Generation
@@ -1369,7 +1369,7 @@ papers:
   project_url: ''
   scope: BACKGROUND
   category: survey
-  focus: Capability hierarchy from plausible prediction to controllable and actionable embodied models
+  focus: 'From plausible worlds to controllable, actionable models'
   tags:
   - Survey
   - World Model
@@ -1387,7 +1387,7 @@ papers:
 - model: SafeDriveVLA
   arxiv_id: '2610.20609'
   category: vla-world
-  focus: Navigation-conditioned latent dreaming identifies unsafe instruction following
+  focus: 'Latent dreaming flags unsafe navigation instructions'
   venue: CoRL
   year: 2026
   code_url: https://github.com/ASGuard-UCI/safedrive-vla
@@ -1406,7 +1406,7 @@ papers:
 - model: DriveWLA
   arxiv_id: '2610.17903'
   category: vla-world
-  focus: World, language, and action experts share dynamics and semantic context; Flow-GRPO refines planning
+  focus: 'World-language-action experts refined by Flow-GRPO'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1424,7 +1424,7 @@ papers:
 - model: OccWAM
   arxiv_id: '2610.17688'
   category: world-action
-  focus: Joint occupancy and ego-trajectory flow matching refines scene-centric and ego-centric futures
+  focus: 'Joint occupancy/trajectory flow matching for futures'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1441,7 +1441,7 @@ papers:
 - model: DPR
   arxiv_id: '2610.16139'
   category: latent
-  focus: Kinematics-aware latent regularization improves physical consistency of long-horizon rollouts
+  focus: 'Kinematic latent regularization stabilizes long rollouts'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1458,7 +1458,7 @@ papers:
 - model: MORE
   arxiv_id: '2610.14871'
   category: jepa
-  focus: Motion-conditioned V-JEPA registers form a compact shared interface for future prediction and planning
+  focus: 'Motion-conditioned V-JEPA registers for planning'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1475,7 +1475,7 @@ papers:
 - model: InfraWorld
   arxiv_id: '2610.14544'
   category: generative
-  focus: Dense BEV states and persistent motion queries forecast roadside 4D occupancy
+  focus: 'Roadside BEV futures with persistent motion queries'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1492,7 +1492,7 @@ papers:
 - model: SimVTA
   arxiv_id: '2610.13781'
   category: world-action
-  focus: Simulator-rendered candidate futures align video supervision with reward-optimized trajectories
+  focus: 'Simulated video futures reward trajectory planning'
   venue: arXiv
   year: 2026
   code_url: https://github.com/OpenDriveLab/SimVTA
@@ -1512,7 +1512,7 @@ papers:
 - model: PlanWAM
   arxiv_id: '2610.11382'
   category: world-action
-  focus: A privileged future posterior teaches a history-only prior to predict planning-shaped futures
+  focus: 'Future posterior distills planning-shaped latent prior'
   venue: arXiv
   year: 2026
   code_url: https://github.com/jinchan9/PlanWAM
@@ -1531,7 +1531,7 @@ papers:
 - model: VGGTWorld-VLA
   arxiv_id: '2610.11161'
   category: vla-world
-  focus: Driving semantics and ego actions condition future 3D geometry in a VGGT-based world model
+  focus: 'Driving actions condition future 3D geometry'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1548,7 +1548,7 @@ papers:
 - model: AffordDrive3D
   arxiv_id: '2610.11060'
   category: world-action
-  focus: Joint future geometry and drivable or collision-critical affordances guide action planning
+  focus: 'Drivable geometry and affordances guide planning'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1566,7 +1566,7 @@ papers:
 - model: GeoWM
   arxiv_id: '2610.07381'
   category: generative
-  focus: Flow matching directly forecasts explicit future geometry at requested horizons
+  focus: 'Flow matching predicts future 3D geometry by horizon'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1583,7 +1583,7 @@ papers:
 - model: ReWAM
   arxiv_id: '2609.39245'
   category: world-action
-  focus: Level-k reciprocal-response modeling couples ego and other-agent decisions
+  focus: 'Reciprocal responses couple ego and other-agent plans'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1600,7 +1600,7 @@ papers:
 - model: V2X-WAM
   arxiv_id: '2609.37098'
   category: world-action
-  focus: Vehicle-infrastructure observations support action-conditioned occupancy and flow feedback
+  focus: 'V2X conditions future occupancy and flow feedback'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1617,7 +1617,7 @@ papers:
 - model: RoXDrive
   arxiv_id: '2609.36851'
   category: latent
-  focus: Closed-loop RL retains world-model rollouts that faithfully follow conditioning actions
+  focus: 'RL filters action-faithful world-model rollouts'
   venue: arXiv
   year: 2026
   code_url: https://github.com/Hongbin98/RoXDrive
@@ -1637,7 +1637,7 @@ papers:
 - model: MomWorld
   arxiv_id: '2609.33737'
   category: latent
-  focus: Latent momentum propagation and adaptive resets stabilize long-horizon planning
+  focus: 'Latent momentum and resets stabilize long rollouts'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1654,7 +1654,7 @@ papers:
 - model: PhysWAM
   arxiv_id: '2609.37970'
   category: world-action
-  focus: Co-generates multiview video, metric depth, and ego motion under a shared 3D projection constraint
+  focus: '3D-constrained video, depth and ego-motion futures'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1671,7 +1671,7 @@ papers:
 - model: World4Scorer
   arxiv_id: '2609.36438'
   category: jepa
-  focus: Trajectory-conditioned JEPA states learn candidate scores from simulator outcomes and logged futures
+  focus: 'Trajectory-conditioned JEPA scores candidate plans'
   venue: arXiv
   year: 2026
   code_url: https://github.com/World4Scorer/World4Scorer
@@ -1690,7 +1690,7 @@ papers:
 - model: CoDrive
   arxiv_id: '2609.34749'
   category: generative
-  focus: Shared world coordinates and cross-vehicle attention maintain multi-agent video consistency
+  focus: 'Shared coordinates align multi-vehicle video futures'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1708,7 +1708,7 @@ papers:
 - model: ReDrive
   arxiv_id: '2609.33854'
   category: latent
-  focus: Future representation prediction strengthens planning features without inference-time world rollout
+  focus: 'Future features improve plans without online rollouts'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1725,7 +1725,7 @@ papers:
 - model: VehDyn
   arxiv_id: '2609.33264'
   category: benchmark
-  focus: Controlled CARLA-CarSim scenarios separate visual quality from kinematic and dynamic fidelity
+  focus: 'Tests driving visual quality versus vehicle dynamics'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1742,7 +1742,7 @@ papers:
 - model: Relationally Grounded LWM
   arxiv_id: '2609.24626'
   category: latent
-  focus: Privileged traffic-graph semantics supervise latent states without extra inference branches
+  focus: 'Traffic-graph semantics supervise latent world states'
   venue: IROS RoBoWoMo Workshop
   year: 2026
   code_url: ''
@@ -1759,7 +1759,7 @@ papers:
 - model: DriveReferee
   arxiv_id: '2609.22762'
   category: world-action
-  focus: A learned geometry readout supports analytic collision and drivable-area checks
+  focus: 'Geometric collision and drivable-area checks for plans'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1776,7 +1776,7 @@ papers:
 - model: ZYT-World
   arxiv_id: '2609.21712'
   category: generative
-  focus: Streaming mixed fisheye-pinhole video generation supports action control and revisitation memory
+  focus: 'Streaming fisheye/pinhole video with action control'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1794,7 +1794,7 @@ papers:
 - model: Vista
   arxiv_id: '2405.17398'
   category: generative
-  focus: Controllable driving-video rollouts generalize across scenes and provide visual reward signals
+  focus: 'Controllable driving rollouts with visual reward signals'
   venue: NeurIPS
   year: 2024
   code_url: https://github.com/OpenDriveLab/Vista
@@ -1813,7 +1813,7 @@ papers:
 - model: LAW
   arxiv_id: '2406.08481'
   category: latent
-  focus: Ego-trajectory-conditioned future features provide self-supervised planning representations
+  focus: 'Ego-trajectory world features for planning'
   venue: ICLR
   year: 2025
   code_url: https://github.com/BraveGroup/LAW
@@ -1833,7 +1833,7 @@ papers:
 - model: WoTE
   arxiv_id: '2504.01941'
   category: latent
-  focus: BEV future states support online evaluation and selection of candidate trajectories
+  focus: 'Future BEV states score candidate driving paths'
   venue: ICCV
   year: 2025
   code_url: https://github.com/liyingyanUCAS/WoTE
@@ -1853,7 +1853,7 @@ papers:
 - model: DrivingGPT
   arxiv_id: '2412.18607'
   category: world-action
-  focus: Interleaved image and action tokens unify world simulation and planning by next-token prediction
+  focus: 'Interleaved image/action tokens for simulation/planning'
   venue: ICCV
   year: 2025
   code_url: ''
@@ -1872,7 +1872,7 @@ papers:
 - model: GAIA-2
   arxiv_id: '2503.20523'
   category: generative
-  focus: Latent diffusion jointly controls ego motion, agents, environment, and consistent camera views
+  focus: 'Latent diffusion controls agents and camera dynamics'
   venue: arXiv
   year: 2025
   code_url: ''
@@ -1890,7 +1890,7 @@ papers:
 - model: MaskGWM
   arxiv_id: '2502.11663'
   category: generative
-  focus: Spatial-temporal masked reconstruction improves diffusion-transformer driving video prediction
+  focus: 'Masked video diffusion improves driving prediction'
   venue: CVPR
   year: 2025
   code_url: https://github.com/SenseTime-FVG/OpenDWM
@@ -1910,7 +1910,7 @@ papers:
 - model: DOME
   arxiv_id: '2410.10429'
   category: generative
-  focus: Trajectory-conditioned diffusion forecasts detailed long-horizon 3D occupancy
+  focus: 'Trajectory-conditioned diffusion of 3D occupancy'
   venue: arXiv
   year: 2024
   code_url: https://github.com/gusongen/DOME
@@ -1929,7 +1929,7 @@ papers:
 - model: OccLLaMA
   arxiv_id: '2409.03272'
   category: vla-world
-  focus: A shared occupancy-language-action vocabulary enables multimodal future prediction and planning
+  focus: 'Shared occupancy-language-action tokens for planning'
   venue: arXiv
   year: 2024
   code_url: ''
@@ -1947,7 +1947,7 @@ papers:
 - model: ReSim
   arxiv_id: '2506.09981'
   category: generative
-  focus: Expert and non-expert data improve action-faithful driving simulation and video-based rewards
+  focus: 'Action-faithful driving simulation from varied data'
   venue: NeurIPS
   year: 2025
   code_url: https://github.com/OpenDriveLab/ReSim
@@ -1968,7 +1968,7 @@ papers:
 - model: CausalDrive
   arxiv_id: '2606.15341'
   category: generative
-  focus: Text and ego actions drive reactive future generation without oracle background trajectories
+  focus: 'Text/ego-conditioned reactive future video generation'
   venue: arXiv
   year: 2026
   code_url: ''
@@ -1985,7 +1985,7 @@ papers:
 - model: WorldDrive
   arxiv_id: '2603.14948'
   category: latent
-  focus: A shared vision-motion representation transfers trajectory-conditioned world learning to planning
+  focus: 'Vision-motion pretraining transfers to driving plans'
   venue: NeurIPS
   year: 2026
   code_url: https://github.com/TabGuigui/WorldDrive
@@ -2004,7 +2004,7 @@ papers:
 - model: WorldCast
   arxiv_id: '2610.12412'
   category: interactive
-  focus: Independent players exchange shared player and scene states for consistent multiplayer game-world views
+  focus: 'Shared states keep multiplayer worlds consistent'
   venue: arXiv
   year: 2026
   code_url: https://github.com/Ziyang-Ye/WorldCast
@@ -2023,7 +2023,7 @@ papers:
 - model: WorldLens
   arxiv_id: '2512.10958'
   category: benchmark
-  focus: Evaluates generated worlds across visual, geometric, action, downstream-task, and human-preference criteria
+  focus: 'Benchmarks visual, geometric and action fidelity'
   venue: CVPR
   year: 2026
   code_url: https://github.com/worldbench/WorldLens
@@ -2044,7 +2044,7 @@ papers:
 - model: NAVSIM v1
   arxiv_id: '2406.15349'
   category: benchmark
-  focus: Non-reactive simulation-based metrics benchmark planning on real driving logs
+  focus: 'Non-reactive driving-log benchmark for planning'
   venue: NeurIPS Datasets and Benchmarks
   year: 2024
   code_url: https://github.com/autonomousvision/navsim/tree/v1.1
@@ -2062,7 +2062,7 @@ papers:
 - model: NAVSIM v2
   arxiv_id: '2506.04218'
   category: benchmark
-  focus: Pseudo-simulation uses perturbed future observations to evaluate recovery and planning robustness
+  focus: 'Perturbed-future pseudo-simulation tests recovery'
   venue: CoRL
   year: 2025
   code_url: https://github.com/autonomousvision/navsim
@@ -2080,7 +2080,7 @@ papers:
 - model: Bench2Drive
   arxiv_id: '2406.03877'
   category: benchmark
-  focus: CARLA short-route closed-loop benchmark measures multiple driving abilities and failure modes
+  focus: 'Closed-loop CARLA tests diverse driving abilities'
   venue: NeurIPS Datasets and Benchmarks
   year: 2024
   code_url: https://github.com/Thinklab-SJTU/Bench2Drive
@@ -2099,7 +2099,7 @@ papers:
 - model: HUGSIM
   arxiv_id: '2412.01718'
   category: benchmark
-  focus: 3D Gaussian reconstruction enables real-time photorealistic closed-loop policy evaluation
+  focus: 'Real-time 3D Gaussian closed-loop driving simulation'
   venue: IEEE TPAMI
   year: 2025
   code_url: https://github.com/hyzhou404/HUGSIM
@@ -2274,7 +2274,7 @@ papers:
   year: 2025
   venue: 'Nature'
   category: 'foundations'
-  focus: 'General imagination-based model-based reinforcement learning'
+  focus: 'General-purpose imagination-based reinforcement learning'
   code_url: 'https://github.com/danijar/dreamerv3'
   project_url: ''
   code_status: released
@@ -2293,7 +2293,7 @@ papers:
   year: 2025
   venue: 'arXiv'
   category: 'foundations'
-  focus: 'Predictive video features and action-conditioned robot planning'
+  focus: 'Predictive video features for robot planning'
   code_url: 'https://github.com/facebookresearch/vjepa2'
   project_url: ''
   code_status: released
@@ -2515,7 +2515,7 @@ papers:
   year: 2026
   venue: 'ICML'
   category: 'robotics'
-  focus: 'Action-conditioned robot dynamics learned from human video'
+  focus: 'Robot dynamics from action-conditioned human video'
   code_url: 'https://github.com/NVIDIA/DreamDojo'
   project_url: ''
   code_status: released
@@ -2552,7 +2552,7 @@ papers:
   year: 2025
   venue: 'ICCV'
   category: 'medical'
-  focus: 'Treatment-conditioned tumor simulation and clinical planning'
+  focus: 'Treatment-conditioned tumor evolution for planning'
   code_url: 'https://github.com/scott-yjyang/MeWM'
   project_url: ''
   code_status: released
@@ -2571,7 +2571,7 @@ papers:
   year: 2025
   venue: 'CVPR'
   category: 'medical'
-  focus: 'Predictive radiograph representations; related foundation model'
+  focus: 'Predictive radiograph representation learning'
   code_url: 'https://github.com/LeapLabTHU/CheXWorld'
   project_url: ''
   code_status: released
@@ -2664,7 +2664,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'medical'
-  focus: 'Ultrasound predictive features, not clinical intervention simulator'
+  focus: 'Predictive ultrasound features, not interventions'
   code_url: 'https://github.com/bowang-lab/EchoJEPA'
   project_url: ''
   code_status: released
@@ -2719,7 +2719,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'medical'
-  focus: 'Interactive ultrasound image dynamics under probe actions'
+  focus: 'Probe-conditioned interactive ultrasound dynamics'
   code_url: ''
   project_url: ''
   code_status: released
@@ -2959,7 +2959,7 @@ papers:
   year: 2025
   venue: 'ICML'
   category: 'bench-general'
-  focus: 'Evaluates interactive fidelity of generative world simulators'
+  focus: 'Evaluates interactive fidelity of world simulators'
   code_url: ''
   project_url: ''
   code_status: released
@@ -3013,7 +3013,7 @@ papers:
   year: 2024
   venue: 'arXiv'
   category: 'video-spatial'
-  focus: 'Predictive visual representations related to world modeling'
+  focus: 'Predictive video representations for world modeling'
   code_url: ''
   project_url: ''
   code_status: released
@@ -3030,7 +3030,7 @@ papers:
   year: 2026
   venue: 'ICML'
   category: 'interactive'
-  focus: 'Forward/reverse cycle-consistency curbs error accumulation in long interactive video rollouts'
+  focus: 'Forward–reverse cycles stabilize long video rollouts'
   code_url: 'https://github.com/Junchao-cs/LIVE'
   project_url: 'https://junchao-cs.github.io/LIVE-demo/'
   publication_status: published
@@ -3050,7 +3050,7 @@ papers:
   year: 2026
   venue: 'NeurIPS'
   category: 'interactive'
-  focus: 'Spatiotemporal scene memory improves coherence when an interactive Minecraft camera revisits places'
+  focus: 'Scene memory stabilizes revisited Minecraft views'
   code_url: 'https://github.com/Junchao-cs/Memory-Forcing'
   project_url: 'https://junchao-cs.github.io/MemoryForcing/'
   publication_status: published
@@ -3070,7 +3070,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'interactive'
-  focus: 'Open training pipeline for real-time interactive world models using 1.43M video clips'
+  focus: 'Scalable interactive-world training from 1.43M clips'
   code_url: 'https://github.com/Junchao-cs/SolarWM'
   project_url: 'https://junchao-cs.github.io/SolarWM-Web/'
   publication_status: preprint
@@ -3093,7 +3093,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'interactive'
-  focus: 'Understanding-guided spatial memory clustering, sparsification, and action-conditioned retrieval'
+  focus: 'Action-aware spatial memory for persistent worlds'
   code_url: 'https://github.com/xbyym/Spatial-Memory-Intelligence'
   project_url: 'https://spatial-memory-intelligence.github.io/'
   publication_status: preprint
@@ -3113,7 +3113,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'video-spatial'
-  focus: 'Converts foundation-video features into compact continuous and discrete latents for generative modeling'
+  focus: 'Compact foundation-video latents for generation'
   code_url: 'https://github.com/zhxie0117/VideoRAE'
   project_url: 'https://zhxie0117.github.io/VideoRAE/'
   publication_status: preprint
@@ -3133,7 +3133,7 @@ papers:
   year: 2026
   venue: 'CVPR'
   category: 'video-spatial'
-  focus: 'Joint camera trajectories and object dynamics for controllable coherent video generation'
+  focus: 'Joint camera and object motion for coherent video'
   code_url: 'https://github.com/grenoble-zhang/SymphoMotion'
   project_url: 'https://grenoble-zhang.github.io/SymphoMotion/'
   publication_status: published
@@ -3153,7 +3153,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'video-spatial'
-  focus: 'Dual-noise masking reduces collapse and error propagation during autoregressive video distillation'
+  focus: 'Dual-noise masking stabilizes video distillation'
   code_url: 'https://github.com/delaprada/Mask-Forcing'
   project_url: 'https://alicezrzhao.github.io/mask_forcing/'
   publication_status: preprint
@@ -3173,7 +3173,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'bench-general'
-  focus: 'Revisit tests assess input preservation, generated content persistence and 3D scene consistency'
+  focus: 'Revisit tests for persistent 3D video worlds'
   code_url: 'https://github.com/worldbench/Orbia'
   project_url: 'https://orbia-bench.github.io/'
   publication_status: preprint
@@ -3196,7 +3196,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'robotics'
-  focus: 'Self-improving embodied world-action policies from verified imagined video/action rollouts'
+  focus: 'Verified imagined rollouts improve robot policies'
   code_url: 'https://github.com/Clausy9/EVO-WAM'
   project_url: 'https://evo-wam.github.io/'
   publication_status: preprint
@@ -3216,7 +3216,7 @@ papers:
   year: 2024
   venue: NeurIPS
   category: medical
-  focus: 'Molecular trajectory generation supports forward simulation, transition-path sampling, temporal upsampling and dynamics-conditioned design'
+  focus: 'Generates molecular trajectories for simulation'
   code_url: https://github.com/bjing2016/mdgen
   project_url: ''
   code_status: released
@@ -3243,7 +3243,7 @@ papers:
   year: 2025
   venue: Nature
   category: physics
-  focus: 'Earth-system pretraining supports forecasting of weather, air pollution, ocean waves and tropical cyclone tracks'
+  focus: 'Earth-system forecasting across weather and oceans'
   code_url: https://github.com/microsoft/aurora
   project_url: https://microsoft.github.io/aurora/
   code_status: released
@@ -3269,7 +3269,7 @@ papers:
   year: 2026
   venue: arXiv
   category: medical
-  focus: 'Predictive representation learning: combines masked genomic-segment embedding prediction with generative objectives for genomic function tasks'
+  focus: 'Masked genomic prediction with generative objectives'
   code_url: https://github.com/NVIDIA-BioNeMo/JEPA-DNA
   project_url: ''
   code_status: released
@@ -3294,7 +3294,7 @@ papers:
   year: 2026
   venue: arXiv
   category: medical
-  focus: 'Predictive representation learning: partial gene-expression views predict cell embeddings; perturbation tests improve absolute states but not effect-size estimates'
+  focus: 'Predicts cell embeddings from partial gene expression'
   code_url: ''
   project_url: ''
   publication_status: preprint
@@ -3313,7 +3313,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'interactive'
-  focus: 'Multi-turn text and camera control through action-window causal attention and history-aware diffusion'
+  focus: 'Multi-turn camera and text control of generated worlds'
   code_url: 'https://github.com/Tencent-Hunyuan/Hy-Nomas'
   project_url: ''
   code_status: 'released'
@@ -3336,7 +3336,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'interactive'
-  focus: 'Explicit view, action and camera tokens with transport-aware temporal encoding for perspective switching'
+  focus: 'In-context view and action control for interactive video'
   code_url: 'https://github.com/aigc3d/World-in-Context'
   project_url: 'https://haroldchen19.github.io/WiC-site/'
   code_status: 'unreleased'
@@ -3357,7 +3357,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'interactive'
-  focus: 'Executable combat rules compile persistent state transitions into visual proxies for controllable game rendering'
+  focus: 'Combat rules drive controllable visual state transitions'
   code_url: 'https://github.com/fight-world-model/FWM'
   project_url: 'https://fight-world-model.github.io/'
   code_status: 'unreleased'
@@ -3378,7 +3378,7 @@ papers:
   year: 2025
   venue: 'arXiv'
   category: 'interactive'
-  focus: 'Real-time Minecraft world simulation enables long-horizon agent learning through offline imagination'
+  focus: 'Minecraft world simulation trains agents by imagination'
   code_url: ''
   project_url: 'https://danijar.com/project/dreamer4/'
   code_status: 'released'
@@ -3398,7 +3398,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'robotics'
-  focus: 'Joint generation of reusable code skills, future video and robot actions in a tri-stream world-action model'
+  focus: 'Co-generates code skills, video and robot actions'
   code_url: 'https://github.com/ZhuoyangLiu2005/agentic-wam'
   project_url: 'https://agentic-wam.github.io/'
   code_status: 'released'
@@ -3422,7 +3422,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'robotics'
-  focus: 'Causal autoregressive video pretraining exploits long visual context for real-time world-action robot control'
+  focus: 'Long-context video pretraining for robot control'
   code_url: 'https://github.com/NVlabs/LongLive/tree/main/Long-WAM'
   project_url: 'https://nvlabs.github.io/LongLive/Long-WAM/'
   code_status: 'released'
@@ -3442,7 +3442,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'robotics'
-  focus: 'Composable video-action generation programs and counterfactual inverse/forward dynamics on a common backbone'
+  focus: 'Composable video-action models and inverse dynamics'
   code_url: 'https://github.com/OpenWAM/OpenWAM'
   project_url: 'https://openwam.stanford.edu/'
   code_status: 'partial'
@@ -3463,7 +3463,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'medical'
-  focus: 'Unified multimodal patient states and action-conditioned latent histories for clinical forecasting and planning'
+  focus: 'Action-conditioned patient states for clinical forecasts'
   code_url: ''
   project_url: ''
   code_status: 'released'
@@ -3482,7 +3482,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'bench-general'
-  focus: 'Unity-grounded benchmark checks physical causality, state consistency and action fidelity of interactive rollouts'
+  focus: 'Tests physical causality and action fidelity in Unity'
   code_url: 'https://github.com/hao-ai-lab/WMEval'
   project_url: 'https://snyhlx.github.io/wmeval-blog/'
   code_status: 'released'
@@ -3506,7 +3506,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'bench-general'
-  focus: 'Goal-shifted tasks test compositional dynamics and planning generalization beyond expert demonstrations'
+  focus: 'Tests planning beyond expert-rollout distributions'
   code_url: 'https://github.com/galilai-group/AnyGoal'
   project_url: 'https://hazel-heejeong-nam.github.io/anygoal/'
   code_status: 'released'
@@ -3526,7 +3526,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'robotics'
-  focus: 'Test-time environment latent adaptation handles unseen physics and interaction rules for robot prediction'
+  focus: 'Test-time latent adaptation to unseen robot physics'
   code_url: 'https://github.com/T2-z-latent-optimization/T2-z'
   project_url: 'https://t2-z-latent-optimization.github.io/'
   code_status: 'released'
@@ -3550,7 +3550,7 @@ papers:
   year: 2026
   venue: 'NeurIPS'
   category: 'robotics'
-  focus: 'Visual calibration of action-to-video mappings enables zero-shot simulation across robot environments and views'
+  focus: 'Action–video calibration for robot simulation transfer'
   code_url: 'https://github.com/UMass-Embodied-AGI/SyncWorld'
   project_url: 'https://umass-embodied-agi.github.io/SyncWorld/'
   code_status: 'released'
@@ -3574,7 +3574,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'robotics'
-  focus: 'Joint video-action diffusion learns transferable physical dynamics for zero-shot robot control'
+  focus: 'Video-action diffusion for zero-shot robot control'
   code_url: 'https://github.com/dreamzero0/dreamzero'
   project_url: 'https://dreamzero0.github.io/'
   code_status: 'released'
@@ -3594,7 +3594,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'robotics'
-  focus: 'Video co-training improves robot policies even when future video is skipped during inference'
+  focus: 'Video co-training without rollout at inference'
   code_url: 'https://github.com/yuantianyuan01/FastWAM'
   project_url: 'https://yuantianyuan01.github.io/FastWAM/'
   code_status: 'released'
@@ -3614,7 +3614,7 @@ papers:
   year: 2026
   venue: 'NeurIPS'
   category: 'bench-general'
-  focus: 'Minute-scale gameplay data with camera trajectories and event-aligned captions for long-horizon world modeling'
+  focus: 'Minute-scale gameplay data for long-horizon worlds'
   code_url: 'https://huggingface.co/datasets/Kangverse/GameVerse'
   project_url: 'https://kangverse.github.io/GameVerse/'
   code_status: 'data-only'
@@ -3638,7 +3638,7 @@ papers:
   year: 2026
   venue: 'arXiv'
   category: 'robotics'
-  focus: 'Sparse routing separates action-causing latent variables from scene-prediction nuisances with identifiability theory'
+  focus: 'Causal latent routing isolates action-driving factors'
   code_url: ''
   project_url: ''
   code_status: 'released'
@@ -3658,7 +3658,7 @@ papers:
   year: 2026
   venue: "NeurIPS"
   category: "eo-forecast"
-  focus: "Weather-conditioned multispectral forecasting separates climatology, anomalies and cumulative stress; evaluates vegetation responses"
+  focus: 'Weather-conditioned multispectral future forecasting'
   code_url: "https://github.com/hku-sail/EO-WM"
   project_url: ""
   code_status: "released"
@@ -3680,7 +3680,7 @@ papers:
   year: 2026
   venue: "arXiv"
   category: "eo-forecast"
-  focus: "Joint change understanding and text-guided future scene generation with geographic conditioning and verifiable reinforcement optimization"
+  focus: 'Geo-conditioned future scenes and change understanding'
   code_url: ""
   project_url: ""
   code_status: "unverified"
@@ -3700,7 +3700,7 @@ papers:
   year: 2026
   venue: "ACM SIGSPATIAL (Application Short)"
   category: "eo-forecast"
-  focus: "Recurrent latent vegetation dynamics produce NDVI quantiles under controllable future temperature and precipitation scenarios"
+  focus: 'Scenario-conditioned vegetation dynamics and NDVI'
   code_url: "https://github.com/arco-group/vegsim"
   project_url: ""
   code_status: "released"
@@ -3721,7 +3721,7 @@ papers:
   year: 2026
   venue: "arXiv"
   category: "eo-forecast"
-  focus: "JEPA latent dynamics predict cloud-free observation availability and recovery time from multispectral imagery and weather"
+  focus: 'Latent forecasts of cloud-free observation windows'
   code_url: ""
   project_url: ""
   code_status: "unverified"
@@ -3740,7 +3740,7 @@ papers:
   year: 2025
   venue: "arXiv"
   category: "eo-spatial"
-  focus: "Direction-conditioned adjacent-tile generation with RSWISE evaluation; models spatial continuation rather than temporal dynamics"
+  focus: 'Directional adjacent-tile generation for spatial worlds'
   code_url: ""
   project_url: ""
   code_status: "unverified"
@@ -3760,7 +3760,7 @@ papers:
   year: 2025
   venue: "CVPR"
   category: "eo-representation"
-  focus: "Related predictive representation: scale-adaptive JEPA unifies heterogeneous sensors, resolutions and modalities for downstream perception"
+  focus: 'Scale-adaptive JEPA across heterogeneous EO sensors'
   code_url: "https://github.com/gastruc/AnySat"
   project_url: "https://gastruc.github.io/anysat"
   code_status: "released"
@@ -3782,7 +3782,7 @@ papers:
   year: 2025
   venue: "IEEE TGRS"
   category: "eo-representation"
-  focus: "Related generative representation: hyperspectral, LiDAR and text fusion with diffusion and alignment for label-efficient classification"
+  focus: 'Diffusion fusion of HSI, LiDAR and text'
   code_url: "https://github.com/Cimy-wang/FusDreamer"
   project_url: ""
   code_status: "released"
