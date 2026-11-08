@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <strong>World models across domains — not just autonomous driving.</strong><br>
+  <strong>World models across domains.</strong><br>
   A curated research atlas spanning interactive games, robotics, medicine, Earth systems and driving, with papers, resources and benchmarks.
 </p>
 
