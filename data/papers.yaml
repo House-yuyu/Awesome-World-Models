@@ -1,5 +1,5 @@
 schema_version: 2
-updated_date: '2026-11-03'
+updated_date: '2026-11-09'
 papers:
 - model: World Model Interpretability
   title: 'World Model Interpretability: From Decoding Representations to Understanding Latent Worlds'
@@ -910,36 +910,6 @@ papers:
   sources:
   - https://arxiv.org/abs/2601.22032
   - https://github.com/linhanwang/Drive-JEPA
-- model: AD-L-JEPA
-  title: Self-Supervised Representation Learning with Joint Embedding Predictive Architecture for Automotive LiDAR
-    Object Detection
-  year: 2026
-  venue: AAAI
-  arxiv_id: '2501.04969'
-  paper_url: https://arxiv.org/abs/2501.04969
-  code_url: https://github.com/HaoranZhuExplorer/adljepa
-  project_url: https://ad-l-jepa.github.io/
-  scope: RELATED
-  category: jepa
-  focus: 'LiDAR BEV JEPA pretraining for 3D detection'
-  tags:
-  - JEPA
-  - LiDAR
-  - Self-supervised Learning
-  - BEV
-  - Object Detection
-  - Pre-training
-  summary: AD-L-JEPA is the first JEPA-based self-supervised pre-training framework for automotive LiDAR object
-    detection, predicting BEV embeddings instead of reconstructing masked point clouds.
-  local_pdf: 25-AD-L-JEPA.pdf
-  added_date: '2026-09-29'
-  published_date: '2025-01-09'
-  verified_date: '2026-10-19'
-  publication_status: published
-  sources:
-  - https://arxiv.org/abs/2501.04969
-  - https://github.com/HaoranZhuExplorer/adljepa
-  - https://ad-l-jepa.github.io/
 - model: HyWorldVLA
   title: 'HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving'
   paper_url: https://arxiv.org/abs/2607.20988
@@ -3106,26 +3076,6 @@ papers:
   - https://arxiv.org/abs/2610.02521
   - https://github.com/xbyym/Spatial-Memory-Intelligence
   - https://spatial-memory-intelligence.github.io/
-- model: 'VideoRAE'
-  title: 'VideoRAE: Taming Video Foundation Models for Generative Modeling via Representation Autoencoders'
-  paper_url: https://arxiv.org/abs/2607.14088
-  arxiv_id: '2607.14088'
-  year: 2026
-  venue: 'arXiv'
-  category: 'video-spatial'
-  focus: 'Compact foundation-video latents for generation'
-  code_url: 'https://github.com/zhxie0117/VideoRAE'
-  project_url: 'https://zhxie0117.github.io/VideoRAE/'
-  publication_status: preprint
-  code_status: released
-  scope: BACKGROUND
-  published_date: '2026-07-14'
-  added_date: '2026-10-21'
-  verified_date: '2026-10-21'
-  sources:
-  - https://arxiv.org/abs/2607.14088
-  - https://github.com/zhxie0117/VideoRAE
-  - https://zhxie0117.github.io/VideoRAE/
 - model: 'SymphoMotion'
   title: 'SymphoMotion: Joint Control of Camera Motion and Object Dynamics for Coherent Video Generation'
   paper_url: https://arxiv.org/abs/2604.03723
@@ -3146,26 +3096,6 @@ papers:
   - https://arxiv.org/abs/2604.03723
   - https://github.com/grenoble-zhang/SymphoMotion
   - https://grenoble-zhang.github.io/SymphoMotion/
-- model: 'Mask Forcing'
-  title: 'Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout'
-  paper_url: https://arxiv.org/abs/2609.09123
-  arxiv_id: '2609.09123'
-  year: 2026
-  venue: 'arXiv'
-  category: 'video-spatial'
-  focus: 'Dual-noise masking stabilizes video distillation'
-  code_url: 'https://github.com/delaprada/Mask-Forcing'
-  project_url: 'https://alicezrzhao.github.io/mask_forcing/'
-  publication_status: preprint
-  code_status: released
-  scope: BACKGROUND
-  published_date: '2026-09-09'
-  added_date: '2026-10-21'
-  verified_date: '2026-10-21'
-  sources:
-  - https://arxiv.org/abs/2609.09123
-  - https://github.com/delaprada/Mask-Forcing
-  - https://alicezrzhao.github.io/mask_forcing/
 - model: 'Orbia'
   title: 'Orbia: Do Generated Videos Form a Consistent 3D World?'
   paper_url: https://arxiv.org/abs/2610.20693
@@ -3262,50 +3192,6 @@ papers:
   - https://www.microsoft.com/en-us/research/publication/aurora-a-foundation-model-for-the-earth-system/
   - https://github.com/microsoft/aurora
   - https://microsoft.github.io/aurora/models.html
-- model: JEPA-DNA
-  title: 'JEPA-DNA: Grounding Genomic Foundation Models through Joint-Embedding Predictive Architectures'
-  paper_url: https://arxiv.org/abs/2602.17162
-  arxiv_id: '2602.17162'
-  year: 2026
-  venue: arXiv
-  category: medical
-  focus: 'Masked genomic prediction with generative objectives'
-  code_url: https://github.com/NVIDIA-BioNeMo/JEPA-DNA
-  project_url: ''
-  code_status: released
-  publication_status: preprint
-  published_date: '2026-02-19'
-  added_date: '2026-10-26'
-  verified_date: '2026-10-26'
-  scope: BACKGROUND
-  resources:
-  - label: Weights
-    url: https://huggingface.co/collections/nvidia/jepa-dna
-  summary: 'Continual training framework for genomic foundation models, combining generative learning with latent prediction. It is a predictive representation model rather than a temporal or causal genome simulator. The verified NVIDIA-BioNeMo repository provides pretraining and benchmark code and links to released checkpoints.'
-  sources:
-  - https://arxiv.org/abs/2602.17162
-  - https://arxiv.org/html/2602.17162v4
-  - https://github.com/NVIDIA-BioNeMo/JEPA-DNA
-  - https://huggingface.co/collections/nvidia/jepa-dna
-- model: Cell-JEPA
-  title: 'Cell-JEPA: Latent Representation Learning for Single-Cell Transcriptomics'
-  paper_url: https://arxiv.org/abs/2602.02093
-  arxiv_id: '2602.02093'
-  year: 2026
-  venue: arXiv
-  category: medical
-  focus: 'Predicts cell embeddings from partial gene expression'
-  code_url: ''
-  project_url: ''
-  publication_status: preprint
-  published_date: '2026-02-02'
-  added_date: '2026-10-26'
-  verified_date: '2026-10-26'
-  scope: BACKGROUND
-  summary: 'Learns dropout-robust single-cell representations and evaluates cell-type transfer and perturbation prediction in one cell line. It is not a validated general-purpose cellular intervention simulator. No official public implementation link was verified as of 2026-10-26.'
-  sources:
-  - https://arxiv.org/abs/2602.02093
-  - https://arxiv.org/html/2602.02093v1
 - model: 'Hy-Nomas'
   title: 'Hy-Nomas: Towards Free-form Interactive World Generation'
   paper_url: 'https://arxiv.org/abs/2610.36729'
@@ -3775,25 +3661,175 @@ papers:
   - "https://arxiv.org/abs/2412.14123"
   - "https://github.com/gastruc/AnySat"
   - "https://gastruc.github.io/anysat"
-- model: "FusDreamer"
-  title: "FusDreamer: Label-Efficient Remote Sensing World Model for Multimodal Data Classification"
-  paper_url: "https://doi.org/10.1109/TGRS.2025.3554862"
-  arxiv_id: ""
-  year: 2025
-  venue: "IEEE TGRS"
-  category: "eo-representation"
-  focus: 'Diffusion fusion of HSI, LiDAR and text'
-  code_url: "https://github.com/Cimy-wang/FusDreamer"
-  project_url: ""
-  code_status: "released"
-  publication_status: "published"
-  scope: "BACKGROUND"
-  published_date: "2025-03-26"
-  added_date: "2026-11-03"
-  verified_date: "2026-11-03"
-  summary: "Uses latent multimodal generation, knowledge-guided consistency projection and multitask optimization for few-label remote-sensing classification. Despite the world-model terminology in the title, the demonstrated role is multimodal representation and fusion rather than future-state dynamics. Public implementation includes training, diffusion, CLIP and data-loading modules."
+- model: Gnomon4D
+  title: 'Gnomon4D: Learning Where and When to Focus for Geometric Motion-Grounded World-Action Modeling'
+  paper_url: https://arxiv.org/abs/2611.02474
+  arxiv_id: '2611.02474'
+  year: 2026
+  venue: arXiv
+  category: robotics
+  focus: '4D interaction motion guides where and when actions attend'
+  code_url: https://github.com/Droliven/Gnomon4D
+  project_url: https://droliven.github.io/Gnomon4D/
+  code_status: unreleased
+  publication_status: preprint
+  scope: CORE
+  published_date: '2026-11-02'
+  added_date: '2026-11-09'
+  verified_date: '2026-11-09'
+  summary: 'Jointly predicts future video, GeoDelta 4D object/robot motion and robot actions. Interaction-Salient Attention and Transition-Anchored Aggregation focus control on contact regions and grasp/release moments. The official repository contains a project website and states that model code is coming soon.'
   sources:
-  - "https://doi.org/10.1109/TGRS.2025.3554862"
-  - "https://rgu-repository.worktribe.com/output/2762032/fusdreamer-label-efficient-remote-sensing-world-model-for-multimodal-data-classification"
-  - "https://h-chen.com/assets/paper/2025/FusDreamer_Label-Efficient_Remote_Sensing_World_Model_for_Multimodal_Data_Classification.pdf"
-  - "https://github.com/Cimy-wang/FusDreamer"
+  - https://arxiv.org/abs/2611.02474
+  - https://droliven.github.io/Gnomon4D/
+  - https://github.com/Droliven/Gnomon4D/blob/main/codes/README.md
+- model: FloMo
+  title: 'FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video'
+  paper_url: https://arxiv.org/abs/2611.05062
+  arxiv_id: '2611.05062'
+  year: 2026
+  venue: arXiv
+  category: robotics
+  focus: '3D motion tokens transfer human-video priors to robot actions'
+  code_url: https://github.com/pairlab/flomo
+  project_url: https://flomo-wam.github.io/
+  code_status: released
+  publication_status: preprint
+  scope: CORE
+  published_date: '2026-11-03'
+  added_date: '2026-11-09'
+  verified_date: '2026-11-09'
+  resources:
+  - label: Weights
+    url: https://huggingface.co/shitijgovil/FloMo
+  summary: 'Adapts a pretrained 5B video generator to jointly predict 3D scene-flow motion tokens and robot actions using human videos and robot teleoperation. Motion supervision improves out-of-distribution action generalization relative to video-only prediction. Official training, inference code and checkpoints are available.'
+  sources:
+  - https://arxiv.org/abs/2611.05062
+  - https://github.com/pairlab/flomo
+- model: INTERACT
+  title: 'INTERACT: Learning Interaction-Aware World Dynamics from Driving Videos for Autonomous Driving'
+  paper_url: https://arxiv.org/abs/2611.02526
+  arxiv_id: '2611.02526'
+  year: 2026
+  venue: arXiv
+  category: latent
+  focus: 'Action-conditioned object slots predict interactive traffic futures'
+  code_url: ''
+  project_url: ''
+  code_status: unverified
+  publication_status: preprint
+  scope: CORE
+  published_date: '2026-11-02'
+  added_date: '2026-11-09'
+  verified_date: '2026-11-09'
+  summary: 'Learns temporally persistent object slots from unlabeled driving videos, infers latent ego actions, and predicts how ego motion and other road users co-evolve. Distills predicted slots into a trajectory planner evaluated on NAVSIM and nuScenes. No official public code link was confirmed.'
+  sources:
+  - https://arxiv.org/abs/2611.02526
+- model: EvoWorld (Out-of-Sight)
+  title: 'EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models'
+  paper_url: https://arxiv.org/abs/2611.06748
+  arxiv_id: '2611.06748'
+  year: 2026
+  venue: arXiv
+  category: interactive
+  focus: 'Explicit event reasoning drives off-screen world-state evolution'
+  code_url: ''
+  project_url: ''
+  code_status: unverified
+  publication_status: preprint
+  scope: CORE
+  published_date: '2026-11-04'
+  added_date: '2026-11-09'
+  verified_date: '2026-11-09'
+  resources:
+  - label: Data
+    url: https://huggingface.co/datasets/Tommy-Bie/EvoWorld-Data
+  summary: 'Separates a vision-language world brain that tracks events and their out-of-sight consequences from an autoregressive video renderer. Introduces event-conditioned EvoWorld-Data and EvoWorld-Bench to test causal reactions and consistency when scenes are revisited. Distinct from the similarly named 3D-memory panoramic EvoWorld paper.'
+  sources:
+  - https://arxiv.org/abs/2611.06748
+  - https://huggingface.co/datasets/Tommy-Bie/EvoWorld-Data
+- model: L3G-World
+  title: 'L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory'
+  paper_url: https://arxiv.org/abs/2610.40614
+  arxiv_id: '2610.40614'
+  year: 2026
+  venue: arXiv
+  category: interactive
+  focus: 'Persistent latent 3D Gaussian memory for real-time world generation'
+  code_url: https://github.com/cvlab-kaist/L3G-World
+  project_url: https://cvlab-kaist.github.io/L3G-World/
+  code_status: unreleased
+  publication_status: preprint
+  scope: CORE
+  published_date: '2026-10-29'
+  added_date: '2026-11-09'
+  verified_date: '2026-11-09'
+  summary: 'Alternates latent 3D Gaussian memory updates and video diffusion generation to maintain spatial consistency as a user explores. Reports 9 FPS generation and lower memory-rendering costs than prior 3D-memory baselines. The official repository lists model inference, training code and checkpoints as pending releases.'
+  sources:
+  - https://arxiv.org/abs/2610.40614
+  - https://github.com/cvlab-kaist/L3G-World
+  - https://cvlab-kaist.github.io/L3G-World/
+- model: E²Forecast
+  title: 'Forecasting Earth Surface Change in Embedding Space'
+  paper_url: https://arxiv.org/abs/2611.02211
+  arxiv_id: '2611.02211'
+  year: 2026
+  venue: arXiv
+  category: eo-forecast
+  focus: 'Probabilistic future Earth embeddings from irregular sensor histories'
+  code_url: https://github.com/ucam-eo/e2forecast
+  project_url: ''
+  code_status: released
+  publication_status: preprint
+  scope: CORE
+  published_date: '2026-11-01'
+  added_date: '2026-11-09'
+  verified_date: '2026-11-09'
+  resources:
+  - label: Weights
+    url: https://huggingface.co/JingtaoLi/E2Forecast
+  summary: 'Forecasts the embeddings of remote-sensing foundation models at queried future dates using irregular Sentinel-1/2 histories. Combines a Gaussian probabilistic branch with rectified-flow ensembles, improving forecast calibration and unsupervised anomaly detection. Training, inference code and checkpoints are public.'
+  sources:
+  - https://arxiv.org/abs/2611.02211
+  - https://github.com/ucam-eo/e2forecast
+- model: ME-World
+  title: 'Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction'
+  paper_url: https://arxiv.org/abs/2610.12299
+  arxiv_id: '2610.12299'
+  year: 2026
+  venue: arXiv
+  category: social
+  focus: 'Shared memory synchronizes action-conditioned multi-agent futures'
+  code_url: https://github.com/cvlab-kaist/ME-World
+  project_url: https://cvlab-kaist.github.io/ME-World/
+  code_status: unreleased
+  publication_status: preprint
+  scope: CORE
+  published_date: '2026-10-08'
+  added_date: '2026-11-09'
+  verified_date: '2026-11-09'
+  summary: 'Jointly generates synchronized first-person video streams for multiple interacting agents, using shared action conditioning and shared environmental memory. Evaluates cross-view state-update, environment and identity consistency on real and synthetic interactions. The public repository currently contains the project materials rather than model training/inference code.'
+  sources:
+  - https://arxiv.org/abs/2610.12299
+  - https://github.com/cvlab-kaist/ME-World
+  - https://cvlab-kaist.github.io/ME-World/
+- model: CoPhy
+  title: 'Distill to Think, Foresee to Act: Cognitive-Physical Reinforcement Learning for Autonomous Driving'
+  paper_url: https://arxiv.org/abs/2605.21139
+  arxiv_id: '2605.21139'
+  year: 2026
+  venue: arXiv
+  category: latent
+  focus: 'Action-conditioned BEV rollouts provide physical rewards for driving RL'
+  code_url: https://github.com/wuyang98/CoPhy
+  project_url: https://wuyang98.github.io/CoPhy/
+  code_status: unreleased
+  publication_status: preprint
+  scope: CORE
+  published_date: '2026-05-20'
+  added_date: '2026-11-09'
+  verified_date: '2026-11-09'
+  summary: 'Distills VLM traffic reasoning into BEV features and uses an action-conditioned BEV world model to score candidate futures for GRPO driving policy optimization. Evaluated on NAVSIM v1/v2; the paper was revised on 2026-11-04. The official repository states that training and inference code await a commercial release review.'
+  sources:
+  - https://arxiv.org/abs/2605.21139
+  - https://github.com/wuyang98/CoPhy
+  - https://wuyang98.github.io/CoPhy/
