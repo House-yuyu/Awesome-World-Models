@@ -1,5 +1,5 @@
 schema_version: 2
-updated_date: '2026-11-09'
+updated_date: '2026-11-19'
 papers:
 - model: World Model Interpretability
   title: 'World Model Interpretability: From Decoding Representations to Understanding Latent Worlds'
@@ -910,6 +910,36 @@ papers:
   sources:
   - https://arxiv.org/abs/2601.22032
   - https://github.com/linhanwang/Drive-JEPA
+- model: AD-L-JEPA
+  title: Self-Supervised Representation Learning with Joint Embedding Predictive Architecture for Automotive LiDAR
+    Object Detection
+  year: 2026
+  venue: AAAI
+  arxiv_id: '2501.04969'
+  paper_url: https://arxiv.org/abs/2501.04969
+  code_url: https://github.com/HaoranZhuExplorer/adljepa
+  project_url: https://ad-l-jepa.github.io/
+  scope: RELATED
+  category: jepa
+  focus: 'Related representation: LiDAR pretraining for detection'
+  tags:
+  - JEPA
+  - LiDAR
+  - Self-supervised Learning
+  - BEV
+  - Object Detection
+  - Pre-training
+  summary: AD-L-JEPA is the first JEPA-based self-supervised pre-training framework for automotive LiDAR object
+    detection, predicting BEV embeddings instead of reconstructing masked point clouds.
+  local_pdf: 25-AD-L-JEPA.pdf
+  added_date: '2026-09-29'
+  published_date: '2025-01-09'
+  verified_date: '2026-10-19'
+  publication_status: published
+  sources:
+  - https://arxiv.org/abs/2501.04969
+  - https://github.com/HaoranZhuExplorer/adljepa
+  - https://ad-l-jepa.github.io/
 - model: HyWorldVLA
   title: 'HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving'
   paper_url: https://arxiv.org/abs/2607.20988
@@ -3192,6 +3222,50 @@ papers:
   - https://www.microsoft.com/en-us/research/publication/aurora-a-foundation-model-for-the-earth-system/
   - https://github.com/microsoft/aurora
   - https://microsoft.github.io/aurora/models.html
+- model: JEPA-DNA
+  title: 'JEPA-DNA: Grounding Genomic Foundation Models through Joint-Embedding Predictive Architectures'
+  paper_url: https://arxiv.org/abs/2602.17162
+  arxiv_id: '2602.17162'
+  year: 2026
+  venue: arXiv
+  category: medical
+  focus: 'Related representation: masked genomic embeddings'
+  code_url: https://github.com/NVIDIA-BioNeMo/JEPA-DNA
+  project_url: ''
+  code_status: released
+  publication_status: preprint
+  published_date: '2026-02-19'
+  added_date: '2026-10-26'
+  verified_date: '2026-10-26'
+  scope: BACKGROUND
+  resources:
+  - label: Weights
+    url: https://huggingface.co/collections/nvidia/jepa-dna
+  summary: 'Continual training framework for genomic foundation models, combining generative learning with latent prediction. It is a predictive representation model rather than a temporal or causal genome simulator. The verified NVIDIA-BioNeMo repository provides pretraining and benchmark code and links to released checkpoints.'
+  sources:
+  - https://arxiv.org/abs/2602.17162
+  - https://arxiv.org/html/2602.17162v4
+  - https://github.com/NVIDIA-BioNeMo/JEPA-DNA
+  - https://huggingface.co/collections/nvidia/jepa-dna
+- model: Cell-JEPA
+  title: 'Cell-JEPA: Latent Representation Learning for Single-Cell Transcriptomics'
+  paper_url: https://arxiv.org/abs/2602.02093
+  arxiv_id: '2602.02093'
+  year: 2026
+  venue: arXiv
+  category: medical
+  focus: 'Related representation: partial-gene cell embeddings'
+  code_url: ''
+  project_url: ''
+  publication_status: preprint
+  published_date: '2026-02-02'
+  added_date: '2026-10-26'
+  verified_date: '2026-10-26'
+  scope: BACKGROUND
+  summary: 'Learns dropout-robust single-cell representations and evaluates cell-type transfer and perturbation prediction in one cell line. It is not a validated general-purpose cellular intervention simulator. No official public implementation link was verified as of 2026-10-26.'
+  sources:
+  - https://arxiv.org/abs/2602.02093
+  - https://arxiv.org/html/2602.02093v1
 - model: 'Hy-Nomas'
   title: 'Hy-Nomas: Towards Free-form Interactive World Generation'
   paper_url: 'https://arxiv.org/abs/2610.36729'
@@ -3833,3 +3907,25 @@ papers:
   - https://arxiv.org/abs/2605.21139
   - https://github.com/wuyang98/CoPhy
   - https://wuyang98.github.io/CoPhy/
+- model: "FusDreamer"
+  title: "FusDreamer: Label-Efficient Remote Sensing World Model for Multimodal Data Classification"
+  paper_url: "https://doi.org/10.1109/TGRS.2025.3554862"
+  arxiv_id: ""
+  year: 2025
+  venue: "IEEE TGRS"
+  category: "eo-representation"
+  focus: 'Related representation: multimodal fusion for classification'
+  code_url: "https://github.com/Cimy-wang/FusDreamer"
+  project_url: ""
+  code_status: "released"
+  publication_status: "published"
+  scope: "BACKGROUND"
+  published_date: "2025-03-26"
+  added_date: "2026-11-03"
+  verified_date: "2026-11-03"
+  summary: "Uses latent multimodal generation, knowledge-guided consistency projection and multitask optimization for few-label remote-sensing classification. Despite the world-model terminology in the title, the demonstrated role is multimodal representation and fusion rather than future-state dynamics. Public implementation includes training, diffusion, CLIP and data-loading modules."
+  sources:
+  - "https://doi.org/10.1109/TGRS.2025.3554862"
+  - "https://rgu-repository.worktribe.com/output/2762032/fusdreamer-label-efficient-remote-sensing-world-model-for-multimodal-data-classification"
+  - "https://h-chen.com/assets/paper/2025/FusDreamer_Label-Efficient_Remote_Sensing_World_Model_for_Multimodal_Data_Classification.pdf"
+  - "https://github.com/Cimy-wang/FusDreamer"

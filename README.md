@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="#explore"><img src="https://img.shields.io/badge/papers-197-blue?style=flat-square&amp;labelColor=162337&amp;color=2dd4bf" alt="Paper count"></a>
+  <a href="#explore"><img src="https://img.shields.io/badge/papers-201-blue?style=flat-square&amp;labelColor=162337&amp;color=2dd4bf" alt="Paper count"></a>
   <a href="#explore"><img src="https://img.shields.io/badge/collections-11-teal?style=flat-square&amp;labelColor=162337&amp;color=7dd3fc" alt="Collection count"></a>
-  <a href="#recent-updates"><img src="https://img.shields.io/badge/last%20updated-2026--11--09-brightgreen?style=flat-square&amp;labelColor=162337&amp;color=a3c9b8" alt="Last catalog update"></a>
+  <a href="#recent-updates"><img src="https://img.shields.io/badge/last%20updated-2026--11--19-brightgreen?style=flat-square&amp;labelColor=162337&amp;color=a3c9b8" alt="Last catalog update"></a>
   <a href="https://github.com/House-yuyu/Awesome-World-Models/stargazers"><img src="https://img.shields.io/github/stars/House-yuyu/Awesome-World-Models?style=flat-square&amp;labelColor=162337&amp;color=e8c981" alt="GitHub stars"></a>
 </p>
 
@@ -42,19 +42,19 @@ Browse the 11 research collections, or follow a question-led [reading path](#sta
     <td width="50%" valign="top"><a href="#robotics--embodied-world-models"><strong>Robotics &amp; Embodied AI</strong></a><br><sub>20 papers · Robot imagination, world-action models and policies.</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="#medical--biological-world-models"><strong>Medicine &amp; Biology</strong></a><br><sub>13 papers · Clinical trajectories, cells and molecular dynamics.</sub></td>
+    <td width="50%" valign="top"><a href="#medical--biological-world-models"><strong>Medicine &amp; Biology</strong></a><br><sub>15 papers · Clinical trajectories, cells and molecular dynamics.</sub></td>
     <td width="50%" valign="top"><a href="#social--multi-agent-world-models"><strong>Social &amp; Multi-Agent</strong></a><br><sub>6 papers · Agent interactions and social simulation.</sub></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><a href="#physics-weather--scientific-world-models"><strong>Physics &amp; Weather</strong></a><br><sub>7 papers · Physical processes, weather and scientific discovery.</sub></td>
-    <td width="50%" valign="top"><a href="#remote-sensing--earth-observation"><strong>Remote Sensing &amp; Earth Observation</strong></a><br><sub>7 papers · Satellite futures, vegetation and spatial extrapolation.</sub></td>
+    <td width="50%" valign="top"><a href="#remote-sensing--earth-observation"><strong>Remote Sensing &amp; Earth Observation</strong></a><br><sub>8 papers · Satellite futures, vegetation and spatial extrapolation.</sub></td>
   </tr>
   <tr>
     <td width="50%" valign="top"><a href="#video--spatial-world-models"><strong>Video &amp; Spatial Worlds</strong></a><br><sub>3 papers · Visual prediction, geometry and spatial memory.</sub></td>
     <td width="50%" valign="top"><a href="#general-world-model-benchmarks"><strong>Benchmarks &amp; Evaluation</strong></a><br><sub>7 papers · Action fidelity, physical consistency and geometry.</sub></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="#autonomous-driving-world-models"><strong>Autonomous Driving</strong></a><br><sub>102 papers · Generation, planning, world-action, JEPA and VLA.</sub></td>
+    <td width="50%" valign="top"><a href="#autonomous-driving-world-models"><strong>Autonomous Driving</strong></a><br><sub>103 papers · Generation, planning, world-action, JEPA and VLA.</sub></td>
     <td width="50%" valign="top"><a href="#datasets--toolkits"><strong>Datasets &amp; Toolkits</strong></a><br><sub>Training data, evaluation suites and research systems.</sub></td>
   </tr>
 </table>
@@ -80,7 +80,7 @@ For the bigger picture, start with [surveys](#surveys--perspectives). For reusab
 
 ## How to read this list
 
-**Scope.** Core world models predict evolving states or the consequences of actions. Predictive representation learning, simulators and related VLA methods appear as clearly identified context, not as equivalent capabilities.
+**Scope.** Core world models predict evolving states or the consequences of actions. Selected predictive representation models, simulators and related VLA methods appear as identified context; masked-feature prediction alone does not establish temporal dynamics or intervention modeling.
 
 **Resources.** **Code** means implementation; **Repository** means a repository without confirmed implementation availability; **Project** and **Data** are other resource types. Partial or pending releases are marked. **Not verified** means an accessible official implementation was not confirmed. Preprints appear as **arXiv**; verified acceptances are labeled separately.
 
@@ -191,11 +191,13 @@ Agent simulators and representation learning papers are not automatically consid
 
 ## Medical & Biological World Models
 
-**13 papers** · Patient, cell and molecular dynamics, with related biomedical predictive representation models.
+**15 papers** · Patient, cell and molecular dynamics, with related biomedical predictive representation models.
 
 | Model | Paper | Key Idea | Venue | Resources |
 | --- | --- | --- | --- | --- |
 | **PatientWM** | [PatientWM: Towards Generalizable Clinical World Models via Unified Patient States](https://arxiv.org/abs/2610.17059) | Action-conditioned patient states for clinical forecasts | arXiv 2026 | — |
+| **JEPA-DNA** | [JEPA-DNA: Grounding Genomic Foundation Models through Joint-Embedding Predictive Architectures](https://arxiv.org/abs/2602.17162) | Related representation: masked genomic embeddings | arXiv 2026 | [Code](https://github.com/NVIDIA-BioNeMo/JEPA-DNA) · [Weights](https://huggingface.co/collections/nvidia/jepa-dna) |
+| **Cell-JEPA** | [Cell-JEPA: Latent Representation Learning for Single-Cell Transcriptomics](https://arxiv.org/abs/2602.02093) | Related representation: partial-gene cell embeddings | arXiv 2026 | — |
 | **MedDreamer** | [MedDreamer: Model-Based Reinforcement Learning with Latent Imagination on Complex EHRs for Clinical Decision Support](https://arxiv.org/abs/2505.19785) | Clinical decisions from imagined patient trajectories | KDD 2026 | [Code](https://github.com/xuqianyi/medDreamer) |
 | **EHRWorld** | [EHRWorld: A Patient-Centric Medical World Model for Long-Horizon Clinical Trajectories](https://arxiv.org/abs/2602.03569) | Predicts longitudinal patient states and outcomes | arXiv 2026 | — |
 | **Brain-WM** | [Brain-WM: Brain Glioblastoma World Model](https://arxiv.org/abs/2603.07562) | Brain tumor evolution and disease progression | arXiv 2026 | — |
@@ -274,10 +276,11 @@ Forecasting, directional spatial extrapolation and related predictive representa
 
 ### EO: Predictive Representations (Related)
 
-**1 paper** · Related JEPA and multimodal generative representations for downstream perception, without explicit future-state simulation.
+**2 papers** · Related JEPA and multimodal generative representations for downstream perception, without explicit future-state simulation.
 
 | Model | Paper | Key Idea | Venue | Resources |
 | --- | --- | --- | --- | --- |
+| **FusDreamer** | [FusDreamer: Label-Efficient Remote Sensing World Model for Multimodal Data Classification](https://doi.org/10.1109/TGRS.2025.3554862) | Related representation: multimodal fusion for classification | IEEE TGRS 2025 | [Code](https://github.com/Cimy-wang/FusDreamer) |
 | **AnySat** | [AnySat: One Earth Observation Model for Many Resolutions, Scales, and Modalities](https://openaccess.thecvf.com/content/CVPR2025/html/Astruc_AnySat_One_Earth_Observation_Model_for_Many_Resolutions_Scales_and_CVPR_2025_paper.html) | Scale-adaptive JEPA across heterogeneous EO sensors | CVPR 2025 | [Code](https://github.com/gastruc/AnySat) · [Project](https://gastruc.github.io/anysat) |
 
 <sub><a href="#explore">↑ Back to collections</a></sub>
@@ -410,7 +413,7 @@ Autonomous driving is one application of world models, including generation, lat
 
 ### Driving: JEPA & Predictive Representations
 
-**7 papers** · Driving predictive representation and joint-embedding methods.
+**8 papers** · Driving predictive representation and joint-embedding methods.
 
 | Model | Paper | Key Idea | Venue | Resources |
 | --- | --- | --- | --- | --- |
@@ -421,6 +424,7 @@ Autonomous driving is one application of world models, including generation, lat
 | **WA-JEPA** | [WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action Modeling in Autonomous Driving](https://arxiv.org/abs/2608.20974) | Masked V-JEPA and flow matching predict scenes/actions | arXiv 2026 | [Code](https://github.com/AFARI-Research/WA-JEPA) · [Project](https://wa-jepa.github.io/) |
 | **Auto-JEPA** | [Auto-JEPA: A Latent World Model of Continuous Intent for End-to-End Autonomous Driving](https://arxiv.org/abs/2607.29031) | Future-intent latent prediction for driving planning | arXiv 2026 | [Code](https://github.com/NoctYang/Auto-JEPA) |
 | **Drive-JEPA** | [Drive-JEPA: Video JEPA Meets Multimodal Trajectory Distillation for End-to-End Driving](https://arxiv.org/abs/2601.22032) | V-JEPA pretraining for proposal-based driving plans | arXiv 2026 | [Code](https://github.com/linhanwang/Drive-JEPA) |
+| **AD-L-JEPA** | [Self-Supervised Representation Learning with Joint Embedding Predictive Architecture for Automotive LiDAR Object Detection](https://arxiv.org/abs/2501.04969) | Related representation: LiDAR pretraining for detection | AAAI 2026 | [Code](https://github.com/HaoranZhuExplorer/adljepa) · [Project](https://ad-l-jepa.github.io/) |
 
 <sub><a href="#explore">↑ Back to collections</a></sub>
 
@@ -515,8 +519,8 @@ Official project/industry releases here are not counted as scholarly publication
 
 ## Recent Updates
 
+- **2026-11-19:** Retained Cell-JEPA, JEPA-DNA, AD-L-JEPA and FusDreamer as related representation or fusion references, with their roles identified in the tables. Removed Mask Forcing and VideoRAE, which focus on general video-generation infrastructure.
 - **2026-11-09:** Added eight world models spanning driving (INTERACT, CoPhy), embodied action (Gnomon4D, FloMo), interactive worlds (EvoWorld, L3G-World), multi-agent interaction (ME-World) and Earth observation (E²Forecast). Verified paper links and distinguished released code from project-only repositories.
-- **2026-11-09:** Removed six lower-fit entries focused on static predictive representations, generic video-model infrastructure or LiDAR detection (FusDreamer, Cell-JEPA, JEPA-DNA, Mask Forcing, VideoRAE and AD-L-JEPA); retained the other four review candidates.
 - **2026-11-03:** Refreshed the research guide with a vector cover, collection navigation, reading routes and a dedicated contribution guide.
 - **2026-11-03:** Added seven remote-sensing and Earth-observation papers: EO-WM, RS-WorldModel, VegSim, Cloud-aware LeWorldModel, RemoteBAGEL/RSWISE, AnySat and FusDreamer. Separated future forecasting, spatial extrapolation and related predictive representations, and distinguished verified implementations from unverified code availability.
 
